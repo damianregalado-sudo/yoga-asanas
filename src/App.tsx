@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { AsanaDetallePage } from './pages/AsanaDetallePage';
 import { PerfilPage } from './pages/PerfilPage';
+import { RecomendacionesPage } from './pages/RecomendacionesPage';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/asana/:id" element={<AsanaDetallePage />} />
         <Route path="/perfil" element={<PerfilPage />} />
+        <Route path="/recomendaciones" element={<RecomendacionesPage />} />
       </Routes>
     </BrowserRouter>
   );

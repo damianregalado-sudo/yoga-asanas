@@ -46,12 +46,20 @@ export function HomePage() {
           <h1 style={{ margin: 0, fontSize: 26, fontWeight: 700 }}>Yoga Asanas</h1>
           <p style={{ margin: '4px 0 0', fontSize: 14, opacity: 0.85 }}>Guía biomecánica interactiva</p>
         </div>
-        <button onClick={() => navigate('/perfil')} style={{
-          background: 'rgba(255,255,255,0.2)', border: '1px solid rgba(255,255,255,0.4)',
-          color: '#fff', padding: '8px 16px', borderRadius: 8, cursor: 'pointer', fontSize: 14,
-        }}>
-          Mi Perfil
-        </button>
+        <div style={{ display: 'flex', gap: 8 }}>
+          <button onClick={() => navigate('/recomendaciones')} style={{
+            background: 'rgba(255,255,255,0.2)', border: '1px solid rgba(255,255,255,0.4)',
+            color: '#fff', padding: '8px 16px', borderRadius: 8, cursor: 'pointer', fontSize: 14,
+          }}>
+            Guía Instructor
+          </button>
+          <button onClick={() => navigate('/perfil')} style={{
+            background: 'rgba(255,255,255,0.2)', border: '1px solid rgba(255,255,255,0.4)',
+            color: '#fff', padding: '8px 16px', borderRadius: 8, cursor: 'pointer', fontSize: 14,
+          }}>
+            Mi Perfil
+          </button>
+        </div>
       </header>
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '24px 16px' }}>
         <FiltrosAsana filtros={filtros} onChange={setFiltros} />
