@@ -101,7 +101,11 @@ export const asanas: Asana[] = [
         riesgo: 'moderado',
         explicacion_clinica: 'El giro de cabeza combinado con posición amplia puede provocar mareo.',
         modificaciones: ['Mantener mirada al frente', 'Entrar y salir lentamente', 'Practicar cerca de pared'],
-        alternativa_segura: { asana_id: 'asana_savasana', nombre: 'Savasana', razon: 'Sin rotación cervical ni riesgo de desequilibrio' }
+        alternativa_segura: {
+          asana_id: 'asana_savasana',
+          nombre: 'Savasana',
+          razon: 'Sin rotación cervical ni riesgo de desequilibrio'
+        }
       },
       {
         condicion: 'embarazo',
@@ -116,7 +120,13 @@ export const asanas: Asana[] = [
         {
           postura_origen_id: 'asana_savasana',
           nombre: 'Tadasana',
-          instrucciones_transicion: ['Separar pies 1.2m', 'Girar pie derecho 90°', 'Girar pie izquierdo 15° hacia adentro', 'Flexionar rodilla derecha lentamente', 'Extender brazos horizontalmente'],
+          instrucciones_transicion: [
+            'Separar pies 1.2m',
+            'Girar pie derecho 90°',
+            'Girar pie izquierdo 15° hacia adentro',
+            'Flexionar rodilla derecha lentamente',
+            'Extender brazos horizontalmente'
+          ],
           consejos_seguridad: 'Girar pie antes de flexionar rodilla para proteger la articulación.'
         }
       ],
@@ -291,7 +301,12 @@ export const asanas: Asana[] = [
           tipo_contraccion: 'concentrica',
           explicacion: 'Retraen escápulas para abrir pecho.'
         },
-        { musculo: 'Romboides', musculo_id: 'rhomboids', tipo_contraccion: 'concentrica', explicacion: 'Aducción escapular.' },
+        {
+          musculo: 'Romboides',
+          musculo_id: 'rhomboids',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Aducción escapular.'
+        },
         {
           musculo: 'Tríceps',
           musculo_id: 'triceps',
@@ -644,7 +659,10 @@ export const asanas: Asana[] = [
         condicion: 'problemas_rodilla',
         riesgo: 'moderado',
         explicacion_clinica: 'La extensión pasiva de la rodilla adelantada con carga axial puede inducir genu recurvatum (hiperextensión) y comprimir los meniscos posteriores y ligamentos cruzados.',
-        modificaciones: ['Mantener una microflexión consciente en la rodilla adelantada activando el cuádriceps.', 'Colocar un bloque de yoga detrás de la pantorrilla para evitar mecánicamente la hiperextensión.'],
+        modificaciones: [
+          'Mantener una microflexión consciente en la rodilla adelantada activando el cuádriceps.',
+          'Colocar un bloque de yoga detrás de la pantorrilla para evitar mecánicamente la hiperextensión.'
+        ],
         alternativa_segura: null
       },
       {
@@ -681,7 +699,10 @@ export const asanas: Asana[] = [
         {
           postura_destino_id: 'asana_virabhadrasana_ii',
           nombre: 'Guerrero II',
-          instrucciones_transicion: ['Inhala flexionando la rodilla delantera hasta alinearla perpendicularmente sobre el tobillo.', 'Eleva el torso a la vertical con la fuerza del core manteniendo los brazos en cruz.'],
+          instrucciones_transicion: [
+            'Inhala flexionando la rodilla delantera hasta alinearla perpendicularmente sobre el tobillo.',
+            'Eleva el torso a la vertical con la fuerza del core manteniendo los brazos en cruz.'
+          ],
           consejos_seguridad: 'Activa firmemente el glúteo de la pierna adelantada para guiar la rodilla en línea con el segundo dedo del pie.'
         }
       ]
@@ -1071,7 +1092,10 @@ export const asanas: Asana[] = [
         condicion: 'vertigo',
         riesgo: 'moderado',
         explicacion_clinica: 'El cambio postural rápido de cabeza abajo a bipedestación puede provocar mareos y desequilibrio vestibular.',
-        modificaciones: ['Ascender muy lentamente articulando la columna vértebra por vértebra con las rodillas semiflexionadas', 'Hacer una pausa intermedia en Ardha Uttanasana antes de incorporarse por completo'],
+        modificaciones: [
+          'Ascender muy lentamente articulando la columna vértebra por vértebra con las rodillas semiflexionadas',
+          'Hacer una pausa intermedia en Ardha Uttanasana antes de incorporarse por completo'
+        ],
         alternativa_segura: null
       }
     ],
@@ -1088,7 +1112,11 @@ export const asanas: Asana[] = [
         {
           postura_destino_id: 'asana_adho_mukha_svanasana',
           nombre: 'Postura del perro boca abajo',
-          instrucciones_transicion: ['Colocar las manos en el suelo al ancho de hombros', 'Exhalar y separar los pies hasta el ancho de hombros', 'Inclinar la cadera arriba y atrás hasta formar una V invertida'],
+          instrucciones_transicion: [
+            'Colocar las manos en el suelo al ancho de hombros',
+            'Exhalar y separar los pies hasta el ancho de hombros',
+            'Inclinar la cadera arriba y atrás hasta formar una V invertida'
+          ],
           consejos_seguridad: 'Aprieta el abdomen primero para proteger la luz lumbar antes de apoyar totalmente la cadera arriba.'
         }
       ]
@@ -1182,7 +1210,10 @@ export const asanas: Asana[] = [
         condicion: 'hernias_discales',
         riesgo: 'moderado',
         explicacion_clinica: 'La compresión cervical por soporte de peso o una hiperextensión lumbar descontrolada puede agravar protrusion discal.',
-        modificaciones: ['Colocar un bloque de yoga debajo del sacro para soporte pasivo sin esfuerzo muscular lumbar.', 'Evitar entrelazar las manos debajo de la espalda para reducir la compresión cervical.'],
+        modificaciones: [
+          'Colocar un bloque de yoga debajo del sacro para soporte pasivo sin esfuerzo muscular lumbar.',
+          'Evitar entrelazar las manos debajo de la espalda para reducir la compresión cervical.'
+        ],
         alternativa_segura: {
           asana_id: 'asana_supta_baddha_konasana',
           nombre: 'Supta Baddha Konasana con soporte',
@@ -1193,14 +1224,20 @@ export const asanas: Asana[] = [
         condicion: 'hipertension_arterial',
         riesgo: 'moderado',
         explicacion_clinica: 'La elevación de la pelvis por encima del nivel del corazón incrementa transitoriamente el retorno venoso y la presión intratorácica/craneal.',
-        modificaciones: ['Mantener una elevación baja o moderada del puente apoyando el sacro sobre un bloque en su altura más baja.', 'Mantener respiraciones continuas y fluidas, evitando cualquier retención de aire (Kumbhaka).'],
+        modificaciones: [
+          'Mantener una elevación baja o moderada del puente apoyando el sacro sobre un bloque en su altura más baja.',
+          'Mantener respiraciones continuas y fluidas, evitando cualquier retención de aire (Kumbhaka).'
+        ],
         alternativa_segura: null
       },
       {
         condicion: 'problemas_rodilla',
         riesgo: 'moderado',
         explicacion_clinica: 'La flexión de rodilla con carga posterior puede generar estrés en los tendones rotulianos o ligamentos cruzados si los pies están mal ubicados.',
-        modificaciones: ['Alejar los pies ligeramente más hacia adelante para abrir el ángulo articular de la rodilla a más de 90 grados.', 'Colocar un bloque entre los muslos para mantener alineación adecuada de rodilla y fémur.'],
+        modificaciones: [
+          'Alejar los pies ligeramente más hacia adelante para abrir el ángulo articular de la rodilla a más de 90 grados.',
+          'Colocar un bloque entre los muslos para mantener alineación adecuada de rodilla y fémur.'
+        ],
         alternativa_segura: null
       }
     ],
@@ -1221,7 +1258,10 @@ export const asanas: Asana[] = [
         {
           postura_destino_id: 'asana_apanasana',
           nombre: 'Apanasana',
-          instrucciones_transicion: ['Descender lentamente la columna vértebra por vértebra en una exhalación controlada.', 'Una vez que el sacro toca el suelo, abrazar suavemente ambas rodillas hacia el pecho.'],
+          instrucciones_transicion: [
+            'Descender lentamente la columna vértebra por vértebra en una exhalación controlada.',
+            'Una vez que el sacro toca el suelo, abrazar suavemente ambas rodillas hacia el pecho.'
+          ],
           consejos_seguridad: 'Bajar con lentitud para descomprimir la columna antes de flexionarla hacia el abdomen.'
         }
       ]
@@ -1346,7 +1386,10 @@ export const asanas: Asana[] = [
         condicion: 'problemas_rodilla',
         riesgo: 'moderado',
         explicacion_clinica: 'La flexión hiperaguda combinada con rotación tibial en la pierna inferior puede pellizcar el menisco medial y sobrecargar los ligamentos colaterales.',
-        modificaciones: ['Mantener la pierna inferior completamente extendida hacia el frente en Dandasana.', 'Colocar un bloque o soporte debajo de la rodilla flexionada para reducir el ángulo de flexión articular.'],
+        modificaciones: [
+          'Mantener la pierna inferior completamente extendida hacia el frente en Dandasana.',
+          'Colocar un bloque o soporte debajo de la rodilla flexionada para reducir el ángulo de flexión articular.'
+        ],
         alternativa_segura: null
       }
     ],
@@ -1465,7 +1508,10 @@ export const asanas: Asana[] = [
         condicion: 'problemas_rodilla',
         riesgo: 'alto',
         explicacion_clinica: 'La hiperflexión mantenida de rodilla bajo compresión corporal genera alta presión intraarticular y tensión en los ligamentos meniscofemorales.',
-        modificaciones: ['Colocar una manta enrollada en el pliegue poplíteo detrás de las rodillas.', 'Sentarse sobre un bloque colocado entre los pies para reducir el ángulo de flexión.'],
+        modificaciones: [
+          'Colocar una manta enrollada en el pliegue poplíteo detrás de las rodillas.',
+          'Sentarse sobre un bloque colocado entre los pies para reducir el ángulo de flexión.'
+        ],
         alternativa_segura: {
           asana_id: 'asana_supta_baddha_konasana',
           nombre: 'Supta Baddha Konasana',
@@ -1483,7 +1529,10 @@ export const asanas: Asana[] = [
         condicion: 'hipertension_arterial',
         riesgo: 'bajo',
         explicacion_clinica: 'Tener la cabeza significativamente por debajo del corazón de forma prolongada puede incrementar la presión intracraneal y vascular cefálica.',
-        modificaciones: ['Apoyar la frente sobre uno o dos bloques para mantener la cabeza al mismo nivel que el corazón.', 'Cruzar los antebrazos bajo la frente para elevar el nivel del cráneo.'],
+        modificaciones: [
+          'Apoyar la frente sobre uno o dos bloques para mantener la cabeza al mismo nivel que el corazón.',
+          'Cruzar los antebrazos bajo la frente para elevar el nivel del cráneo.'
+        ],
         alternativa_segura: null
       }
     ],
@@ -1492,7 +1541,10 @@ export const asanas: Asana[] = [
         {
           postura_origen_id: 'asana_marjaryasana_bitilasana',
           nombre: 'Marjaryasana-Bitilasana (Postura de Gato-Vaca)',
-          instrucciones_transicion: ['Desde cuatro apoyos, junta los dedos gordos de los pies y abre ligeramente las rodillas.', 'Exhala mientras trasladas las caderas hacia los talones y extiendes las manos al frente.'],
+          instrucciones_transicion: [
+            'Desde cuatro apoyos, junta los dedos gordos de los pies y abre ligeramente las rodillas.',
+            'Exhala mientras trasladas las caderas hacia los talones y extiendes las manos al frente.'
+          ],
           consejos_seguridad: 'Asegurar que el retroceso de la pelvis sea gradual sin generar pellizco en ingles ni rodillas.'
         }
       ],
@@ -1500,7 +1552,10 @@ export const asanas: Asana[] = [
         {
           postura_destino_id: 'asana_adho_mukha_svanasana',
           nombre: 'Adho Mukha Svanasana (Postura del perro boca abajo)',
-          instrucciones_transicion: ['Inhala elevando el torso a cuatro apoyos y enraíza las palmas de las manos.', 'Engancha los metatarsos y eleva las caderas hacia arriba y atrás extendiendo la columna.'],
+          instrucciones_transicion: [
+            'Inhala elevando el torso a cuatro apoyos y enraíza las palmas de las manos.',
+            'Engancha los metatarsos y eleva las caderas hacia arriba y atrás extendiendo la columna.'
+          ],
           consejos_seguridad: 'Presionar firmemente la base del índice y pulgar para proteger las muñecas durante la transición.'
         }
       ]
@@ -1621,7 +1676,10 @@ export const asanas: Asana[] = [
         condicion: 'vertigo',
         riesgo: 'moderado',
         explicacion_clinica: 'La hiperextensión cervical brusca puede comprometer temporalmente la arteria vertebral y estimular el sistema vestibular desencadenando mareos.',
-        modificaciones: ['Mantener la cabeza en posición neutra con la mirada hacia adelante o al techo sin dejarla caer hacia atrás', 'Realizar la transición de salida con respiraciones lentas y control visual fijo'],
+        modificaciones: [
+          'Mantener la cabeza en posición neutra con la mirada hacia adelante o al techo sin dejarla caer hacia atrás',
+          'Realizar la transición de salida con respiraciones lentas y control visual fijo'
+        ],
         alternativa_segura: null
       }
     ],
@@ -1772,13 +1830,19 @@ export const asanas: Asana[] = [
         {
           postura_origen_id: 'asana_balasana',
           nombre: 'Postura del Niño',
-          instrucciones_transicion: ['Voltear hacia el lado izquierdo y sentarse sobre los isquiones', 'Elevar los muslos hasta llegar a la posición de barco, utilizando las manos en el suelo como apoyo inicial'],
+          instrucciones_transicion: [
+            'Voltear hacia el lado izquierdo y sentarse sobre los isquiones',
+            'Elevar los muslos hasta llegar a la posición de barco, utilizando las manos en el suelo como apoyo inicial'
+          ],
           consejos_seguridad: 'No forzar la elevación de las piernas si hay fatiga lumbar; mantener el apoyo de las manos.'
         },
         {
           postura_origen_id: 'asana_adho_mukha_svanasana',
           nombre: 'Perro con la Cara Hacia Abajo',
-          instrucciones_transicion: ['Flexionar rodillas y encoger caderas hacia los talones', 'Aguantar la posición de barco desde una sentación estable, exhalando para alargar la columna antes de dejar la espalda del suelo'],
+          instrucciones_transicion: [
+            'Flexionar rodillas y encoger caderas hacia los talones',
+            'Aguantar la posición de barco desde una sentación estable, exhalando para alargar la columna antes de dejar la espalda del suelo'
+          ],
           consejos_seguridad: 'Establecer el anclaje de los isquiones antes de elevar el tronco para evitar caída o esfuerzo excesivo.'
         }
       ],
@@ -1792,7 +1856,10 @@ export const asanas: Asana[] = [
         {
           postura_destino_id: 'asana_savasana',
           nombre: 'Postura del Cadáver',
-          instrucciones_transicion: ['Retomar una postura de sentación con piernas extendidas y relajadas', 'Rotar hacia un costado y rodar sobre la espalda, extendiendo los brazos a los lados'],
+          instrucciones_transicion: [
+            'Retomar una postura de sentación con piernas extendidas y relajadas',
+            'Rotar hacia un costado y rodar sobre la espalda, extendiendo los brazos a los lados'
+          ],
           consejos_seguridad: 'Permitir que la columna descomprima gradualmente tras la carga isométrica.'
         }
       ]
@@ -1941,7 +2008,11 @@ export const asanas: Asana[] = [
         {
           postura_destino_id: 'asana_bhujangasana',
           nombre: 'Bhujangasana',
-          instrucciones_transicion: ['Apoyar la cabeza y el pecho en el suelo rompiendo la extensión', 'Deslizar la pelvis hacia abajo y meter rodillas y codos', 'Curl up para encogida fetal o balón'],
+          instrucciones_transicion: [
+            'Apoyar la cabeza y el pecho en el suelo rompiendo la extensión',
+            'Deslizar la pelvis hacia abajo y meter rodillas y codos',
+            'Curl up para encogida fetal o balón'
+          ],
           consejos_seguridad: 'No hacer fuerza excesiva para arrastrar el cuerpo, evitar estiramientos bruscos en la zona lumbar.'
         }
       ]
@@ -2257,13 +2328,19 @@ export const asanas: Asana[] = [
         {
           postura_destino_id: 'asana_adho_mukha_svanasana',
           nombre: 'Adho Mukha Svanasana',
-          instrucciones_transicion: ['Descender la mano superior a la esterilla enmarcando el pie delantero con ambas manos.', 'Dar un paso atrás con la pierna delantera elevando la pelvis hacia arriba y atrás.'],
+          instrucciones_transicion: [
+            'Descender la mano superior a la esterilla enmarcando el pie delantero con ambas manos.',
+            'Dar un paso atrás con la pierna delantera elevando la pelvis hacia arriba y atrás.'
+          ],
           consejos_seguridad: 'Descomprimir la zona lumbar extendiendo activamente la columna en una posición simétrica y neutra.'
         },
         {
           postura_destino_id: 'asana_uttanasana',
           nombre: 'Uttanasana',
-          instrucciones_transicion: ['Llevar ambas manos al suelo a los lados del pie delantero mientras se deshace la torsión.', 'Dar un paso adelante con el pie trasero para juntar ambos pies y relajarse en flexión hacia adelante.'],
+          instrucciones_transicion: [
+            'Llevar ambas manos al suelo a los lados del pie delantero mientras se deshace la torsión.',
+            'Dar un paso adelante con el pie trasero para juntar ambos pies y relajarse en flexión hacia adelante.'
+          ],
           consejos_seguridad: 'Microflexionar ambas rodillas durante la transición para proteger los isquiotibiales.'
         }
       ]
@@ -2490,7 +2567,10 @@ export const asanas: Asana[] = [
         condicion: 'problemas_muneca',
         riesgo: 'alto',
         explicacion_clinica: 'La carga axial combinada con una dorsiflexión forzada a 90 grados genera compresión excesiva en el túnel carpiano y fibrocartílago triangular.',
-        modificaciones: ['Usar cuña ergonómica bajo el talón de la mano para reducir el ángulo de flexión dorsal.', 'Practicar la compresión abdominal en posición supina sobre el suelo.'],
+        modificaciones: [
+          'Usar cuña ergonómica bajo el talón de la mano para reducir el ángulo de flexión dorsal.',
+          'Practicar la compresión abdominal en posición supina sobre el suelo.'
+        ],
         alternativa_segura: {
           asana_id: 'asana_balasana',
           nombre: 'Balasana',
@@ -2741,6 +2821,2835 @@ export const asanas: Asana[] = [
             'Apoya la pelvis, extiende las piernas hacia adelante y relaja los brazos a los costados con las palmas hacia arriba.'
           ],
           consejos_seguridad: 'Evita levantar bruscamente la cabeza al descender la espalda para no generar tensión cervical refleja.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_tadasana',
+    nombre_sanscrito: 'Tadasana',
+    nombre_espanol: 'Postura de la Montaña',
+    nombre_ingles: 'Mountain Pose',
+    familia_biomecanica: 'bipedestacion',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Postura fundamental de pie que establece los principios de alineación neutra, distribución equilibrada del peso corporal y elongación axial.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps femoral',
+          musculo_id: 'cuadriceps_femoral',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Activa la extensión de rodilla elevando las rótulas sin bloquear la articulación.'
+        },
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la contención de la pared abdominal y previene la hiperlordosis lumbar.'
+        },
+        {
+          musculo: 'Musculatura intrínseca del pie',
+          musculo_id: 'musculatura_intrinseca_pie',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene los arcos plantares activo-dinámicos mediante el apoyo de tres puntos.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Glúteo medio',
+          musculo_id: 'gluteo_medio',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza la pelvis en el plano frontal evitando oscilaciones laterales.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Promueven la elongación axial y sostienen la verticalidad de la columna.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Pectoral mayor',
+          musculo_id: 'pectoral_mayor',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga pasivamente permitiendo la apertura clavicular y el descenso escapular.'
+        },
+        {
+          musculo: 'Músculos intercostales',
+          musculo_id: 'intercostales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se expanden sutilmente facilitando la respiración costodiafragmática amplia.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Trípode plantar activo distribuyendo el peso homogéneamente entre metatarso interno, externo y centro del talón.',
+        'Cuádriceps activos elevando suavemente las rótulas sin hiperextender las rodillas.',
+        'Pelvis en posición neutra con coxis apuntando suavemente hacia el suelo.',
+        'Eje axial alineando tobillos, rodillas, trocánter mayor, hombros y conducto auditivo externo.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hipotension',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La bipedestación estática prolongada puede inducir estancamiento venoso en miembros inferiores, reduciendo el retorno venoso y provocando mareos.',
+        modificaciones: ['Separar los pies al ancho de las caderas', 'Mantener microflexión de rodillas', 'Evitar permanencias superiores a 5 respiraciones continuas'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Urdhva Hastasana',
+          instrucciones_transicion: ['Al exhalar, desciende los brazos por los laterales o al centro del pecho', 'Enraíza nuevamente la base de los pies'],
+          consejos_seguridad: 'Mantén la elongación de la columna al descender los brazos sin colapsar la caja torácica.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Uttanasana',
+          instrucciones_transicion: ['Inhala alargando la coronilla al cielo', 'Exhala flexionando desde las caderas manteniendo la espalda recta'],
+          consejos_seguridad: 'Flexiona ligeramente las rodillas si hay tensión excesiva en los isquiotibiales.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_matsyasana',
+    nombre_sanscrito: 'Matsyasana',
+    nombre_espanol: 'Postura del Pez',
+    nombre_ingles: 'Fish Pose',
+    familia_biomecanica: 'extension_posterior',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Extensión dorsal en decúbito supino que abre la cintura escapular y la caja torácica mientras apoya suavemente el vértex en el suelo.',
+    duracion_sugerida_respiraciones: { principiante: 4, intermedio: 6, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Extensores dorsales',
+          musculo_id: 'extensores_dorsales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Generan el arqueo de la columna torácica y la retracción escapular.'
+        },
+        {
+          musculo: 'Músculos intercostales',
+          musculo_id: 'intercostales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabilizan y expanden la parrilla costal durante la elevación esternal.'
+        },
+        {
+          musculo: 'Flexores profundos de cadera',
+          musculo_id: 'flexores_profundos_cadera',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Mantienen el anclaje pélvico y la extensión de piernas juntas en el suelo.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Romboides',
+          musculo_id: 'romboides',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Aducen las escápulas empujando el esternón hacia el cenit.'
+        },
+        {
+          musculo: 'Tríceps braquial',
+          musculo_id: 'triceps_braquial',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Presiona los codos y antebrazos contra el suelo para descargar la cabeza.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Esternocleidomastoideo',
+          musculo_id: 'esternocleidomastoideo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga longitudinalmente al descender la cabeza hacia atrás.'
+        },
+        {
+          musculo: 'Pectoral mayor',
+          musculo_id: 'pectoral_mayor',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Apertura completa de la pared anterior torácica.'
+        },
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira a lo largo de la pared abdominal anterior permitiendo la extensión espinal.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Apertura y elevación del esternón dirigida activamente hacia el techo.',
+        'Codos y antebrazos firmemente apoyados en el mat para sostener el peso corporal y descargar la columna cervical.',
+        'La coronilla roza el suelo sin soportar carga compresiva axial directa.',
+        'Piernas activas, extendidas y juntas, manteniendo contacto de talones y muslos con el suelo.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'alto',
+        explicacion_clinica: 'La hiperextensión cervical bajo carga puede comprimir las raíces nerviosas y comprometer los discos intervertebrales cervicales y dorsales.',
+        modificaciones: [
+          'Colocar un bloque de yoga debajo de la espalda media y una manta firme bajo la cabeza para neutralizar el cuello',
+          'Realizar la postura con soporte restaurativo'
+        ],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'hipertension_arterial',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La posición de la cabeza por debajo del corazón unida a la expansión torácica profunda puede alterar la presión intracraneal y arterial.',
+        modificaciones: ['Mantener la cabeza elevada sobre un cojín o bloque evitando la inversión cervical'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Savasana',
+          instrucciones_transicion: ['Junta las piernas', 'Desliza las manos debajo de los glúteos con palmas hacia abajo', 'Inhala, empuja con los codos y eleva el pecho curvando la columna'],
+          consejos_seguridad: 'Asegúrate de que la fuerza principal provenga del empuje de los antebrazos antes de apoyar la cabeza.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Savasana',
+          instrucciones_transicion: ['Inhala presionando con los codos', 'Eleva la cabeza liberando el vértex', 'Desliza el torso y cuello suavemente hasta apoyar la espalda plana'],
+          consejos_seguridad: 'No gires la cabeza lateralmente mientras el cuello esté en extensión o durante el retorno.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_garudasana',
+    nombre_sanscrito: 'Garudasana',
+    nombre_espanol: 'Postura del Águila',
+    nombre_ingles: 'Eagle Pose',
+    familia_biomecanica: 'equilibrio',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Postura de equilibrio unipodal con aducción y envolvimiento cruzado de extremidades superiores e inferiores, exigiendo estabilidad articular y enfoque.',
+    duracion_sugerida_respiraciones: { principiante: 4, intermedio: 6, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Aductores del muslo',
+          musculo_id: 'aductores_muslo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Comprimen fuertemente los muslos hacia la línea media manteniendo el enganche de piernas.'
+        },
+        {
+          musculo: 'Deltoides posterior',
+          musculo_id: 'deltoides_posterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Asiste en la elevación de codos y estabilización de la flexión cruzada de brazos.'
+        },
+        {
+          musculo: 'Musculatura distal de la pierna de apoyo',
+          musculo_id: 'musculatura_distal_pierna',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Tibial anterior, posterior y peroneos realizan microajustes dinámicos de equilibrio.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Cuádriceps pierna de apoyo',
+          musculo_id: 'cuadriceps_pierna_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la flexión de rodilla controlada actuando como amortiguador gravitatorio.'
+        },
+        {
+          musculo: 'Serrato anterior',
+          musculo_id: 'serrato_anterior',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Protruye las escápulas separándolas en la espalda alta.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Glúteo medio',
+          musculo_id: 'gluteo_medio',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Elongado por la marcada aducción y flexión de cadera en ambas extremidades.'
+        },
+        {
+          musculo: 'Romboides',
+          musculo_id: 'romboides',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Estiramiento profundo debido a la protracción escapular de los brazos entrelazados.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Caderas cuadradas orientadas directamente hacia el frente, niveladas horizontalmente.',
+        'Flexión simultánea de cadera y rodilla de apoyo sin forzar torsión femorotibial.',
+        'Codos elevados a la altura de los hombros y manos alejadas de la cara.',
+        'Eje espinal erguido evitando una flexión anterior compensatoria del torso.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'alto',
+        explicacion_clinica: 'El cruce y enrollamiento de las piernas ejerce estrés en valgo y fuerzas de cizallamiento rotacional sobre los meniscos y ligamentos colaterales.',
+        modificaciones: ['Cruzar la pierna superior sin enganchar el empeine en la pantorrilla', 'Apoyar los dedos del pie cruzado en un bloque o suelo al lado del pie de base'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'vertigo',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La reducción de la base de sustentación y la fijación visual con brazos frente al rostro pueden desencadenar inestabilidad vestibular.',
+        modificaciones: ['Practicar con la espalda apoyada contra la pared', 'Mantener la mirada en un punto fijo a través del espacio entre antebrazos'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Utkatasana',
+          instrucciones_transicion: ['Desde la postura de la silla, transfiere el peso al pie de apoyo', 'Cruza el muslo contrario por encima y envuelve los brazos al frente'],
+          consejos_seguridad: 'Asegúrate de que la flexión de caderas sea suficiente antes de realizar el cruce del muslo.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: ['Inhala desenrollando simultáneamente brazos y piernas', 'Extiende el cuerpo verticalmente y apoya ambos pies en el suelo'],
+          consejos_seguridad: 'Desenrolla con control propioceptivo sin soltar las extremidades de manera brusca.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_natarajasana',
+    nombre_sanscrito: 'Natarajasana',
+    nombre_espanol: 'Postura del Danzarín',
+    nombre_ingles: 'Dancer Pose',
+    familia_biomecanica: 'equilibrio',
+    nivel_dificultad: 'avanzado',
+    descripcion: 'Postura avanzada de equilibrio sobre una pierna que combina flexión anterior de torso con potente extensión posterior de cadera y columna.',
+    duracion_sugerida_respiraciones: { principiante: 3, intermedio: 5, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps pierna suspendida',
+          musculo_id: 'cuadriceps_pierna_suspendida',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Genera el empuje del pie hacia atrás y arriba contra la resistencia del agarre manual.'
+        },
+        {
+          musculo: 'Glúteo mayor pierna suspendida',
+          musculo_id: 'gluteo_mayor_pierna_suspendida',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Produce la hiperextensión coxofemoral elevando el muslo por encima de la pelvis.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostienen la extensión toracolumbar contra la gravedad manteniendo el pecho elevado.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Isquiotibiales pierna suspendida',
+          musculo_id: 'isquiotibiales_pierna_suspendida',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Contribuyen activamente a la flexión de rodilla y extensión de cadera.'
+        },
+        {
+          musculo: 'Glúteo medio pierna de apoyo',
+          musculo_id: 'gluteo_medio_pierna_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Previene la caída de la pelvis contralateral y estabiliza el eje unipodal.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Psoas ilíaco pierna elevada',
+          musculo_id: 'psoas_iliaco_pierna_elevada',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga en grado máximo por la extensión posterior de la cadera.'
+        },
+        {
+          musculo: 'Cuádriceps (recto femoral) pierna elevada',
+          musculo_id: 'recto_femoral_pierna_elevada',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Sufre un estiramiento longitudinal pronunciado por la flexión de rodilla combinada con extensión de cadera.'
+        },
+        {
+          musculo: 'Pared abdominal anterior',
+          musculo_id: 'pared_abdominal_anterior',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga de manera excéntrica controlando la hiperextensión del tronco.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Caderas paralelas y cuadradas orientadas hacia el frente sin rotar ni abrir la pelvis hacia el lateral.',
+        'Extensión originada en el glúteo mayor y la espalda media, evitando el colapso hiperlordótico lumbar.',
+        'Pierna de apoyo con microflexión para proteger la cápsula articular y ligamentos de la rodilla.',
+        'Brazo adelantado extendido a la altura del hombro proyectando energía hacia adelante y arriba.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'alto',
+        explicacion_clinica: 'La combinación de extensión posterior profunda con carga asimétrica puede generar compresión foraminal severa y pinzamiento discal en L4-L5 y L5-S1.',
+        modificaciones: ['Limitar la elevación de la pierna manteniendo el torso vertical', 'Utilizar un cinturón de yoga para el agarre del pie sin arquear la espalda baja'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'vertigo',
+        riesgo: 'alto',
+        explicacion_clinica: 'La posición asimétrica unipodal combinada con extensión dorsal puede provocar desorientación espacial y caídas bruscas.',
+        modificaciones: ['Apoyar la mano adelantada en una pared sólida para referencia espacial constante'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'hipertension_arterial',
+        riesgo: 'moderado',
+        explicacion_clinica: 'El esfuerzo isométrico intenso y la apertura forzada de la caja torácica pueden desencadenar maniobras tipo Valsalva no deseadas.',
+        modificaciones: ['Mantener respiraciones fluidas y evitar sostener la postura más de 3 ciclos'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: [
+            'Flexiona la rodilla derecha llevando el talón al glúteo',
+            'Toma el empeine interno con la mano derecha',
+            'Inhala elevando el brazo izquierdo y patea el pie hacia atrás y arriba'
+          ],
+          consejos_seguridad: 'No permitas que la rodilla flexionada se abra hacia el lateral; mantenla alineada con la cadera.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: ['Inhala reduciendo gradualmente la patada del pie', 'Regresa el torso al eje vertical', 'Suelta el pie con control y desciende ambos brazos'],
+          consejos_seguridad: 'Realiza el descenso suavemente para no desestabilizar la pierna de apoyo.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_utthita_parsvakonasana',
+    nombre_sanscrito: 'Utthita Parsvakonasana',
+    nombre_espanol: 'Ángulo Lateral Extendido',
+    nombre_ingles: 'Extended Side Angle Pose',
+    familia_biomecanica: 'bipedestacion',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Postura de pie con zancada lateral amplia que genera una línea continua de extensión desde el talón posterior hasta la punta de los dedos de la mano superior.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 7, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps pierna anterior',
+          musculo_id: 'cuadriceps_pierna_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la flexión a 90 grados soportando la carga principal del tren inferior.'
+        },
+        {
+          musculo: 'Glúteo mayor pierna anterior',
+          musculo_id: 'gluteo_mayor_pierna_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza la articulación coxofemoral y mantiene la cadera flexionada y abducida.'
+        },
+        {
+          musculo: 'Músculos oblicuos del abdomen',
+          musculo_id: 'oblicuos_abdomen',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostienen el tronco suspendido en el plano diagonal evitando el colapso lateral sobre el muslo.'
+        },
+        {
+          musculo: 'Serrato anterior brazo superior',
+          musculo_id: 'serrato_anterior_brazo_superior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Fija y proyecta la escápula extendiendo el brazo en la línea diagonal por encima de la cabeza.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Cuádriceps pierna posterior',
+          musculo_id: 'cuadriceps_pierna_posterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la rodilla posterior completamente extendida y el borde externo del pie apoyado.'
+        },
+        {
+          musculo: 'Deltoides anterior y medio',
+          musculo_id: 'deltoides_anterior_medio',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la abducción y elevación del brazo superior.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Dorsal ancho lado superior',
+          musculo_id: 'dorsal_ancho_lado_superior',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga notablemente a lo largo de todo el costado posterolateral superior.'
+        },
+        {
+          musculo: 'Músculos intercostales lado superior',
+          musculo_id: 'intercostales_lado_superior',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Apertura y separación de las costillas del costado elevado.'
+        },
+        {
+          musculo: 'Aductores de cadera pierna anterior y posterior',
+          musculo_id: 'aductores_cadera',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Estiramiento por la amplia abducción coxofemoral bilateral.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Rodilla anterior flexionada exactamente a 90° alineada verticalmente sobre el tobillo, apuntando al segundo dedo del pie.',
+        'Línea recta diagonal ininterrumpida desde el borde externo del talón posterior hasta la punta de los dedos de la mano extendida.',
+        'Rotación externa del muslo anterior manteniendo la rodilla orientada hacia el frente y no colapsada hacia adentro.',
+        'Presión firme sobre el borde externo del pie posterior con arco interno activo.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'El colapso en valgo de la rodilla anterior o sobrecarga excesiva en flexión profunda compromete el menisco medial y ligamento colateral medial.',
+        modificaciones: [
+          'Disminuir la distancia entre los pies reduciendo el ángulo de flexión a 120°',
+          'Apoyar el antebrazo firmemente en el muslo anterior o usar un bloque alto para la mano'
+        ],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Virabhadrasana II',
+          instrucciones_transicion: [
+            'Inhala alargando los costados',
+            'Exhala inclinando el torso lateralmente hacia la pierna flexionada',
+            'Apoya el antebrazo en el muslo o la mano por fuera del pie y extiende el brazo contrario en diagonal'
+          ],
+          consejos_seguridad: 'No dejes caer el peso del tronco sobre el hombro inferior; mantén la cintura activa.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Virabhadrasana II',
+          instrucciones_transicion: ['Inhala activando fuertemente el core y las piernas', 'Eleva el tronco volviendo a abrir los brazos paralelos al suelo'],
+          consejos_seguridad: 'Empuja con el pie delantero para impulsar la subida sin perder la alineación de la pelvis.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_vasisthasana',
+    nombre_sanscrito: 'Vasisthasana',
+    nombre_espanol: 'Plancha Lateral',
+    nombre_ingles: 'Side Plank Pose',
+    familia_biomecanica: 'equilibrio',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Postura de equilibrio y fuerza en apoyo unilateral que desafía la estabilidad escapular, la fuerza del core lateral y la alineación coronal.',
+    duracion_sugerida_respiraciones: { principiante: 3, intermedio: 5, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Músculos oblicuos del abdomen lado inferior',
+          musculo_id: 'oblicuos_lado_inferior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Elevan y sostienen la pelvis resistiendo la fuerza de gravedad en el plano frontal.'
+        },
+        {
+          musculo: 'Glúteo medio lado inferior',
+          musculo_id: 'gluteo_medio_lado_inferior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Abduce la cadera de apoyo impidiendo el descenso o rotación de la pelvis.'
+        },
+        {
+          musculo: 'Deltoides brazo de apoyo',
+          musculo_id: 'deltoides_brazo_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza la articulación glenohumeral bajo carga de compresión directa.'
+        },
+        {
+          musculo: 'Serrato anterior brazo de apoyo',
+          musculo_id: 'serrato_anterior_brazo_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Fija la escápula contra la reja costal evitando el aleteo escapular.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Transverso del abdomen',
+          musculo_id: 'transverso_del_abdomen',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Comprime el contenido abdominal manteniendo el corsé estabilizador del raquis.'
+        },
+        {
+          musculo: 'Cuadrado lumbar lado inferior',
+          musculo_id: 'cuadrado_lumbar_inferior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la columna lumbar en posición neutra evitando la flexión lateral pasiva.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Aductores de cadera pierna superior',
+          musculo_id: 'aductores_pierna_superior',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Elongados pasivamente mientras mantienen la coaptación o ligera abducción de la extremidad.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Muñeca de apoyo alineada verticalmente bajo el hombro (o ligeramente adelantada para reducir el ángulo de flexión dorsal).',
+        'Cuerpo estructurado en una diagonal recta y rígida desde los tobillos hasta la coronilla.',
+        'Pelvis elevada y activa en el plano coronal sin hundimiento ni rotación anterior.',
+        'Borde externo del pie de apoyo firmemente asentado, pies apilados o escalonados.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_muneca',
+        riesgo: 'alto',
+        explicacion_clinica: 'La carga axial unida a la extensión de 90° de muñeca incrementa exponencialmente la presión intra-túnel carpiano y comprime el fibrocartílago triangular.',
+        modificaciones: ['Apoyar el antebrazo en lugar de la mano (plancha lateral sobre antebrazo)', 'Apoyar la rodilla inferior en el suelo para reducir la carga total'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Phalakasana (Plancha)',
+          instrucciones_transicion: ['Gira sobre el borde externo del pie derecho apilando el pie izquierdo', 'Transfiere el peso a la mano derecha y eleva el brazo izquierdo hacia el techo'],
+          consejos_seguridad: 'Activa fuertemente el serrato antes de levantar la mano contraria para no sobrecargar el hombro de apoyo.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Phalakasana (Plancha)',
+          instrucciones_transicion: ['Exhala descendiendo la mano superior al suelo', 'Gira los pies al centro volviendo a la plancha neutra'],
+          consejos_seguridad: 'Mantén el core activo durante el giro para evitar caídas bruscas de la pelvis.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_urdhva_dhanurasana',
+    nombre_sanscrito: 'Urdhva Dhanurasana',
+    nombre_espanol: 'Postura de la Rueda',
+    nombre_ingles: 'Wheel Pose',
+    familia_biomecanica: 'extension_posterior',
+    nivel_dificultad: 'avanzado',
+    descripcion: 'Extensión posterior completa en arco invertido que requiere gran movilidad de la cintura escapular, extensión torácica y fuerza en toda la cadena posterior.',
+    duracion_sugerida_respiraciones: { principiante: 3, intermedio: 5, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Extienden toda la columna vertebral a lo largo de sus segmentos torácico y lumbar.'
+        },
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Produce la potente extensión de caderas elevando la pelvis hacia el techo.'
+        },
+        {
+          musculo: 'Tríceps braquial',
+          musculo_id: 'triceps_braquial',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Extiende los codos impulsando el pecho hacia arriba y alejándolo del suelo.'
+        },
+        {
+          musculo: 'Cuádriceps femoral',
+          musculo_id: 'cuadriceps_femoral',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la extensión de rodillas transfiriendo la fuerza de empuje del tren inferior.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Deltoides posterior y fibras medias',
+          musculo_id: 'deltoides_posterior',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Asisten en la flexión y elevación profunda de los brazos en retropulsión.'
+        },
+        {
+          musculo: 'Aductor mayor',
+          musculo_id: 'aductor_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene los fémures paralelos evitando la rotación externa excesiva de caderas.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Elongación máxima de la pared anterior del abdomen durante el arqueo total.'
+        },
+        {
+          musculo: 'Psoas ilíaco',
+          musculo_id: 'psoas_iliaco',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Estiramiento profundo en la cara anterior de la articulación de la cadera.'
+        },
+        {
+          musculo: 'Músculos intercostales y pectorales',
+          musculo_id: 'intercostales_pectorales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Apertura de la pared torácica anterior y la cavidad axilar.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Pies y manos situados estrictamente paralelos entre sí, separados al ancho de caderas y hombros respectivamente.',
+        'Empuje activo y continuo desde los talones y metatarsos sin permitir que las rodillas se abran hacia los lados.',
+        'Apertura del pecho proyectando el esternón hacia la pared posterior más allá de las manos.',
+        'Rotación interna activa de los muslos para descargar compresión en la articulación sacroilíaca.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'alto',
+        explicacion_clinica: 'La hiperextensión forzada genera compresión masiva en los elementos posteriores vertebrales, espondilolistesis y pinzamiento discal lumbar.',
+        modificaciones: ['Sustituir por Setu Bandhasana (Puente) con bloque bajo el sacro'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'embarazo',
+        riesgo: 'alto',
+        explicacion_clinica: 'La hiperpresión intraabdominal y la tensión extrema en la fascia de la línea alba pueden desencadenar diástasis y restringir el flujo uteroplacentario.',
+        modificaciones: ['Evitar completamente la postura a partir del primer trimestre'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'problemas_muneca',
+        riesgo: 'alto',
+        explicacion_clinica: 'La hiperextensión extrema de muñeca soportando gran parte del peso corporal compromete severamente el túnel carpiano y los ligamentos del carpo.',
+        modificaciones: ['Colocar cuñas de yoga bajo las palmas para reducir el ángulo de flexión dorsal', 'Utilizar la pared con bloques inclinados'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Setu Bandha Sarvangasana',
+          instrucciones_transicion: [
+            'Coloca las manos junto a las orejas con dedos apuntando a los hombros',
+            'Inhala, presiona manos y pies, eleva primero a la coronilla y luego extiende codos completamente'
+          ],
+          consejos_seguridad: 'Asegúrate de que los codos no se abran hacia los lados al iniciar el empuje.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Supta Baddha Konasana',
+          instrucciones_transicion: [
+            'Flexiona lentamente los codos llevando la barbilla al pecho',
+            'Apoya con suavidad hombros, espalda media y baja en el suelo',
+            'Junta las plantas de los pies y abre las rodillas'
+          ],
+          consejos_seguridad: 'Nunca salgas de golpe; desciende vértebra por vértebra protegiendo la cabeza y el cuello.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_marichyasana_c',
+    nombre_sanscrito: 'Marichyasana C',
+    nombre_espanol: 'Postura del Sabio Marichi',
+    nombre_ingles: "Marichi's Pose C",
+    familia_biomecanica: 'torsion',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Torsión espinal sentada con una pierna flexionada y otra extendida, que favorece la desrotación vertebral, masaje visceral y movilidad torácica.',
+    duracion_sugerida_respiraciones: { principiante: 4, intermedio: 6, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Músculos oblicuos internos y externos',
+          musculo_id: 'oblicuos_internos_externos',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Generan la torsión helicoidal del tronco hacia el lado de la pierna flexionada.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la elongación axial imprescindible previa y durante la rotación vertebral.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Multífidos',
+          musculo_id: 'multifidos',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Producen la rotación segmentaria intervertebral fina.'
+        },
+        {
+          musculo: 'Deltoides anterior del brazo de palanca',
+          musculo_id: 'deltoides_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene el brazo cruzado contra el muslo exterior profundizando el giro.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Músculos oblicuos contralaterales',
+          musculo_id: 'oblicuos_contralaterales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan permitiendo el rango articular de torsión en la pared abdominal opuesta.'
+        },
+        {
+          musculo: 'Romboides del lado que gira hacia atrás',
+          musculo_id: 'romboides',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se abren acompañando el movimiento del hombro en retropulsión.'
+        },
+        {
+          musculo: 'Glúteo medio y piriforme de la pierna flexionada',
+          musculo_id: 'gluteo_medio_piriforme',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Elongados por la flexión combinada con la aducción profunda del fémur.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Anclaje firme y equilibrado de ambos isquiones sobre el mat antes de iniciar el giro.',
+        'Extensión axial vertical completa de la columna antes de ejecutar la torsión torácica.',
+        'Pierna extendida en línea recta, pie en flexión dorsal activa con dedos apuntando al techo.',
+        'La torsión se origina en el abdomen y la columna torácica, no forzando el cuello cervical.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'embarazo',
+        riesgo: 'alto',
+        explicacion_clinica: 'La torsión cerrada comprime significativamente la cavidad intrauterina y puede restringir el aporte sanguíneo materno-fetal.',
+        modificaciones: ['Realizar torsión abierta hacia el lado opuesto sin comprimir el abdomen'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'moderado',
+        explicacion_clinica: 'Las fuerzas de torsión combinadas con cualquier flexión anterior incrementan el cizallamiento en el anillo fibroso discal.',
+        modificaciones: ['Sentarse sobre una manta o bloque para elevar las caderas', 'Abrazar la rodilla sin palanca forzada de codo'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: [
+            'Flexiona la rodilla derecha apoyando el pie cerca del isquion derecho',
+            'Inhala elevando el brazo izquierdo para alargar la columna',
+            'Exhala cruzando el codo izquierdo por fuera de la rodilla derecha'
+          ],
+          consejos_seguridad: 'Crece verticalmente en la inhalación antes de buscar mayor profundidad en la exhalación.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: ['Inhala desenrollando el torso hacia el centro', 'Libera el brazo y extiende la pierna flexionada al frente'],
+          consejos_seguridad: 'Realiza una pausa neutra en Dandasana antes de cambiar de lado.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_jathara_parivrtti',
+    nombre_sanscrito: 'Jathara Parivrtti',
+    nombre_espanol: 'Torsión Espinal Supina',
+    nombre_ingles: 'Supine Spinal Twist',
+    familia_biomecanica: 'torsion',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Postura de torsión en decúbito supino que flexibiliza la columna vertebral y descomprime las vértebras lumbares. Favorece la movilidad del torso y la relajación del sistema nervioso.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Oblicuos abdominales (interno y externo)',
+          musculo_id: 'oblicuos_abdominales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Generan y sostienen la torsión axial del tronco controlando la rotación de la pelvis.'
+        },
+        {
+          musculo: 'Rotadores de la columna (multífidos y rotadores)',
+          musculo_id: 'rotadores_columna',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la rotación segmentaria intervertebral de forma uniforme.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Transverso del abdomen',
+          musculo_id: 'transverso_abdomen',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza el complejo lumbo-pélvico durante la rotación.'
+        },
+        {
+          musculo: 'Romboide mayor y menor',
+          musculo_id: 'romboides',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Anclan la escápula contralateral al suelo.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Pectoral mayor contralateral',
+          musculo_id: 'pectoral_mayor',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga pasivamente al mantener el brazo extendido y el hombro en contacto con el suelo.'
+        },
+        {
+          musculo: 'Glúteo medio y piriforme',
+          musculo_id: 'gluteo_medio_piriforme',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estiran en la cadera superior al cruzar las piernas hacia el lado opuesto.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Escápulas y hombros firmemente apoyados y pegados al suelo en todo momento.',
+        'Rodillas flexionadas descendiendo juntas hacia el lateral manteniendo ángulo de cadera estable.',
+        'Mirada orientada hacia el lado opuesto a las piernas para completar la torsión cervical si no hay molestia en cuello.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'moderado',
+        explicacion_clinica: 'Las torsiones en carga o con excesiva rotación lumbar pueden aumentar la presión intradiscal y provocar dolor radicular en lesiones espinales agudas.',
+        modificaciones: ['Colocar un bloque o manta doblada entre o debajo de las rodillas flexionadas para limitar el rango de rotación.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Savasana',
+          instrucciones_transicion: ['Flexionar ambas rodillas hacia el pecho y abrir los brazos en cruz.', 'Exhalar y dejar caer las rodillas suavemente hacia un lateral.'],
+          consejos_seguridad: 'Asegurar que el hombro opuesto no se despegue del suelo al descender las piernas.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Apanasana',
+          instrucciones_transicion: ['Inhalar activando el abdomen para regresar las rodillas al centro.', 'Abrazar las rodillas contra el pecho con ambas manos.'],
+          consejos_seguridad: 'Moverse lentamente usando la fuerza abdominal y no el impulso lumbar.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_utkatasana',
+    nombre_sanscrito: 'Utkatasana',
+    nombre_espanol: 'Postura de la Silla',
+    nombre_ingles: 'Chair Pose',
+    familia_biomecanica: 'bipedestacion',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Postura de pie en flexión de caderas y rodillas que fortalece el tren inferior y la musculatura paravertebral. Desarrolla estabilidad, resistencia y alineación axial.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps femoral',
+          musculo_id: 'cuadriceps_femoral',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la flexión de rodillas resistiendo la fuerza de gravedad.'
+        },
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la flexión controlada de cadera y previene el colapso anterior de la pelvis.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Extienden la columna manteniendo el torso erguido frente a la inclinación anterior.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Deltoides anterior',
+          musculo_id: 'deltoides_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Eleva y sostiene los brazos extendidos junto a las orejas.'
+        },
+        {
+          musculo: 'Tibial anterior',
+          musculo_id: 'tibial_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza los tobillos en dorsiflexión profunda.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Isquiotibiales',
+          musculo_id: 'isquiotibiales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan moderadamente en su inserción proximal por la flexión de cadera.'
+        },
+        {
+          musculo: 'Sóleo y gastrocnemio',
+          musculo_id: 'soleo_gastrocnemio',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estiran debido a la dorsiflexión forzada del tobillo.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Peso distribuido principalmente hacia los talones y el centro de los pies.',
+        'Rodillas alineadas con el segundo dedo del pie sin sobrepasar excesivamente las puntas de los pies.',
+        'Brazos elevados paralelos a las orejas con hombros lejos del cuello y columna neutra.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La alta carga de compresión femororrotuliana puede agravar patologías de menisco o condromalacia rotuliana.',
+        modificaciones: ['Reducir la profundidad de la flexión de rodillas manteniendo el apoyo de la espalda contra una pared.'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'embarazo',
+        riesgo: 'alto',
+        explicacion_clinica: 'Evitar variantes con torsión cerrada o compresión intraabdominal excesiva por riesgo vascular y mecánico.',
+        modificaciones: ['Separar los pies al ancho de las caderas y mantener el torso semi-erguido sin realizar torsiones.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: ['Inhalar elevando los brazos al cielo.', 'Exhalar flexionando las rodillas y caderas llevando el peso hacia los talones.'],
+          consejos_seguridad: 'Cuidar que las rodillas no colapsen hacia adentro en valgo durante la flexión.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Uttanasana',
+          instrucciones_transicion: ['Exhalar estirando progresivamente las piernas mientras el torso desciende en flexión anterior.', 'Llevar las manos hacia el suelo o a bloques.'],
+          consejos_seguridad: 'Mantener microflexión en rodillas si hay rigidez en isquiotibiales.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_anjaneyasana',
+    nombre_sanscrito: 'Anjaneyasana',
+    nombre_espanol: 'Estocada Baja',
+    nombre_ingles: 'Low Lunge',
+    familia_biomecanica: 'bipedestacion',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Estocada con rodilla posterior apoyada en el suelo que abre los flexores de cadera y fortalece la pierna anterior. Mejora el equilibrio pélvico y la postura lumbar.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps de pierna anterior',
+          musculo_id: 'cuadriceps_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Soporta la carga del peso corporal manteniendo el ángulo de flexión de rodilla a 90 grados.'
+        },
+        {
+          musculo: 'Glúteo mayor de pierna posterior',
+          musculo_id: 'gluteo_mayor_posterior',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Facilita la extensión activa de la cadera posterior estabilizando la pelvis.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Isquiotibiales de pierna anterior',
+          musculo_id: 'isquiotibiales_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Co-contracción para estabilizar la articulación de la rodilla adelantada.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostienen el tronco erguido y alargado sobre la pelvis.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Psoas ilíaco de pierna trasera',
+          musculo_id: 'psoas_iliaco_posterior',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Recibe una intensa elongación pasiva por la hiperextensión de la cadera.'
+        },
+        {
+          musculo: 'Recto femoral de pierna trasera',
+          musculo_id: 'recto_femoral_posterior',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira a lo largo de la cara anterior del muslo con la cadera en extensión.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Rodilla delantera flexionada a 90° alineada verticalmente sobre el tobillo.',
+        'Caderas cuadradas apuntando directamente hacia el frente.',
+        'Rodilla posterior descansando sobre el suelo con el empeine apoyado y alargando la columna.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La presión directa del peso sobre la rótula posterior y la fuerza de cizalla en la rodilla anterior pueden causar dolor e inflamación.',
+        modificaciones: ['Colocar una manta doblada bajo la rodilla posterior y no flexionar la rodilla delantera más allá de 90°.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Adho Mukha Svanasana',
+          instrucciones_transicion: ['Inhalar y dar un paso largo hacia adelante con el pie entre las manos.', 'Bajar suavemente la rodilla posterior al suelo y apoyar el empeine.'],
+          consejos_seguridad: 'Asegurar que el pie delantero quede completamente plano antes de transferir peso.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Ardha Hanumanasana',
+          instrucciones_transicion: ['Exhalar desplazando las caderas hacia atrás sobre la rodilla posterior.', 'Extender la pierna delantera flexionando el tobillo en dorsiflexión.'],
+          consejos_seguridad: 'Mantener las caderas niveladas sin rotar la pelvis hacia los lados.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_ardha_chandrasana',
+    nombre_sanscrito: 'Ardha Chandrasana',
+    nombre_espanol: 'Postura de la Media Luna',
+    nombre_ingles: 'Half Moon Pose',
+    familia_biomecanica: 'equilibrio',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Asana de equilibrio sobre una pierna con apertura lateral de tronco y pelvis. Desarrolla estabilidad articular, coordinación y fuerza en abductores de cadera.',
+    duracion_sugerida_respiraciones: { principiante: 3, intermedio: 5, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Glúteo medio de pierna de apoyo',
+          musculo_id: 'gluteo_medio_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Evita la caída de la pelvis en el plano frontal y sostiene el equilibrio monopodal.'
+        },
+        {
+          musculo: 'Abductores de pierna elevada (glúteo medio y menor, tensor de la fascia lata)',
+          musculo_id: 'abductores_elevada',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la pierna en abducción paralela al suelo.'
+        },
+        {
+          musculo: 'Cuádriceps de pierna de apoyo',
+          musculo_id: 'cuadriceps_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Extiende firmemente la rodilla de sostén sin hiperextenderla.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Oblicuos del abdomen',
+          musculo_id: 'oblicuos_abdominales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la rotación y apertura lateral del torso respecto al suelo.'
+        },
+        {
+          musculo: 'Deltoides de brazo elevado',
+          musculo_id: 'deltoides_elevado',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene el brazo superior extendido verticalmente hacia el cielo.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Aductores del muslo de ambas piernas',
+          musculo_id: 'aductores_muslo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan por la marcada abducción y apertura pélvica.'
+        },
+        {
+          musculo: 'Isquiotibiales de pierna de apoyo',
+          musculo_id: 'isquiotibiales_apoyo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan debido a la flexión de cadera con la rodilla extendida.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Pie de apoyo firme mirando al frente con pierna de apoyo activa.',
+        'Apertura completa de cadera y pecho en el mismo plano lateral vertical.',
+        'Pierna elevada paralela al suelo con el pie activo y dedos apuntando hacia el lateral.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'vertigo',
+        riesgo: 'alto',
+        explicacion_clinica: 'Los cambios rápidos de plano visual y el desbalance vestibular pueden provocar pérdida brusca de estabilidad y caídas.',
+        modificaciones: ['Apoyar la mano delantera sobre un bloque de yoga y mantener la mirada fija en el suelo.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Utthita Trikonasana',
+          instrucciones_transicion: [
+            'Flexionar ligeramente la rodilla delantera y apoyar la mano a 30 cm por delante del pie.',
+            'Inhalar transfiriendo el peso hacia la pierna delantera y despegar la pierna trasera hasta la horizontal.'
+          ],
+          consejos_seguridad: 'Colocar un bloque bajo la mano de apoyo para mantener el torso largo y estable.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Virabhadrasana II',
+          instrucciones_transicion: ['Exhalar flexionando la rodilla delantera con control.', 'Aterrizar el pie trasero suavemente en el mat abriendo los brazos en cruz.'],
+          consejos_seguridad: 'Controlar el descenso de la pierna trasera sin dejar caer bruscamente la pelvis.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_virabhadrasana_iii',
+    nombre_sanscrito: 'Virabhadrasana III',
+    nombre_espanol: 'Guerrero III',
+    nombre_ingles: 'Warrior III',
+    familia_biomecanica: 'equilibrio',
+    nivel_dificultad: 'avanzado',
+    descripcion: 'Desafiante postura de equilibrio sobre un pie donde el cuerpo forma una línea recta paralela al suelo. Desarrolla fuerza postural posterior y control propioceptivo profundo.',
+    duracion_sugerida_respiraciones: { principiante: 3, intermedio: 5, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps de pierna de apoyo',
+          musculo_id: 'cuadriceps_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza la rodilla sosteniendo toda la carga corporal en un solo punto.'
+        },
+        {
+          musculo: 'Glúteo mayor de pierna elevada',
+          musculo_id: 'gluteo_mayor_elevada',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la pierna trasera en extensión completa alineada con la pelvis.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Extienden activamente la columna contra la gravedad para mantener el torso paralelo al suelo.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Glúteo medio de pierna de apoyo',
+          musculo_id: 'gluteo_medio_apoyo',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Previene la inclinación y caída lateral de la pelvis manteniendo las crestas ilíacas paralelas.'
+        },
+        {
+          musculo: 'Transverso del abdomen',
+          musculo_id: 'transverso_abdomen',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Provee compresión y rigidez al núcleo para conectar torso y pelvis.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Isquiotibiales de pierna de apoyo',
+          musculo_id: 'isquiotibiales_apoyo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Sufren un intenso estiramiento activo con la cadera flexionada a 90 grados y rodilla extendida.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Crestas ilíacas y pelvis perfectamente cuadradas orientadas hacia el suelo.',
+        'Torso, pelvis y pierna elevada alineados en un plano horizontal paralelo al mat.',
+        'Cuello neutro con la mirada fija en un punto estable sobre el piso.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La inestabilidad monopodal y la sobrecarga axial pueden tensar los ligamentos cruzados y meniscos.',
+        modificaciones: ['Apoyar las manos sobre una pared o respaldo de silla para descargar peso y estabilizar el equilibrio.'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'vertigo',
+        riesgo: 'alto',
+        explicacion_clinica: 'La posición horizontal de la cabeza combinada con el apoyo monopodal compromete severamente el sistema vestibular.',
+        modificaciones: ['Realizar la postura con las manos apoyadas en la pared manteniendo la mirada en el suelo.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Virabhadrasana I',
+          instrucciones_transicion: [
+            'Inhalar inclinando el torso hacia adelante sobre el muslo frontal.',
+            'Despegar el pie trasero transfiriendo el peso y extender ambas piernas formando una línea horizontal.'
+          ],
+          consejos_seguridad: 'Cerrar la cadera de la pierna flotante rotando el muslo internamente.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: ['Inhalar elevando el torso a la vertical mientras la pierna trasera desciende suavemente.', 'Juntar ambos pies y bajar los brazos a los lados.'],
+          consejos_seguridad: 'Aterrizar con control muscular evitando impactos bruscos en el talón.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_kumbhakasana',
+    nombre_sanscrito: 'Kumbhakasana',
+    nombre_espanol: 'Postura de la Plancha',
+    nombre_ingles: 'Plank Pose',
+    familia_biomecanica: 'equilibrio',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Postura isométrica fundamental de apoyo sobre manos y pies que activa la faja abdominal y la cintura escapular. Fortalece la musculatura estabilizadora del core.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 12 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Evita la extensión lumbar excesiva y sostiene la pelvis en posición neutra.'
+        },
+        {
+          musculo: 'Transverso del abdomen',
+          musculo_id: 'transverso_abdomen',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Aumenta la presión intraabdominal protegiendo la columna lumbar.'
+        },
+        {
+          musculo: 'Pectoral mayor',
+          musculo_id: 'pectoral_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza la articulación glenohumeral durante el soporte del peso.'
+        },
+        {
+          musculo: 'Deltoides (fibras anteriores)',
+          musculo_id: 'deltoides_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la flexión de hombro resistiendo el empuje contra el suelo.'
+        },
+        {
+          musculo: 'Serrato anterior',
+          musculo_id: 'serrato_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Realiza la protracción escapular evitando el colapso torácico y el aleteo escapular.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Cuádriceps femoral',
+          musculo_id: 'cuadriceps_femoral',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene las rodillas completamente extendidas.'
+        },
+        {
+          musculo: 'Glúteos',
+          musculo_id: 'gluteos',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Asisten en la alineación neutra de la pelvis previniendo la anteversión.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Sin estiramiento pasivo predominante',
+          musculo_id: 'ninguno_predominante',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Postura isométrica global de cocontracción donde predomina la estabilización articular sobre el estiramiento pasivo.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Muñecas alineadas directamente debajo de los hombros con dedos bien abiertos.',
+        'Cuerpo en una línea recta y continua desde los talones hasta la coronilla.',
+        'Empuje activo del suelo separando las escápulas sin hundir el pecho ni la pelvis.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hipertension_arterial',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La contracción isométrica sostenida puede elevar bruscamente la presión arterial mediante la maniobra de Valsalva involuntaria.',
+        modificaciones: ['Mantener respiración fluida y apoyar las rodillas en el suelo para reducir la carga isométrica.'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'problemas_muneca',
+        riesgo: 'alto',
+        explicacion_clinica: 'La extensión de muñeca a 90° bajo carga total puede irritar el túnel carpiano y tendones flexores.',
+        modificaciones: ['Realizar la plancha sobre antebrazos o utilizar puños cerrados / cuñas ergonómicas.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Adho Mukha Svanasana',
+          instrucciones_transicion: ['Inhalar desplazando los hombros hacia adelante sobre las muñecas.', 'Alinear el cuerpo en un plano inclinado firme y recto.'],
+          consejos_seguridad: 'Evitar que las caderas se hundan hacia el suelo durante el traslado del peso.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Chaturanga Dandasana',
+          instrucciones_transicion: [
+            'Exhalar desplazando el peso ligeramente hacia adelante en los dedos de los pies.',
+            'Flexionar los codos a 90 grados manteniéndolos pegados a las costillas.'
+          ],
+          consejos_seguridad: 'No permitir que los hombros desciendan por debajo del nivel de los codos.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_baddha_konasana',
+    nombre_sanscrito: 'Baddha Konasana',
+    nombre_espanol: 'Postura de la Mariposa',
+    nombre_ingles: 'Bound Angle Pose',
+    familia_biomecanica: 'sentada',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Postura sedente con unión de plantas de los pies y apertura de caderas que elonga los aductores. Estimula los órganos pélvicos y mejora la movilidad coxofemoral.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Glúteo medio',
+          musculo_id: 'gluteo_medio',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Asiste en la abducción y estabilización de las caderas abiertas.'
+        },
+        {
+          musculo: 'Rotadores externos de cadera (piriforme, obturadores, géminos)',
+          musculo_id: 'rotadores_externos_cadera',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Activan la rotación externa coxofemoral permitiendo el descenso de los muslos.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la columna recta y vertical desde la base pélvica.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Transverso del abdomen',
+          musculo_id: 'transverso_abdomen',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la presión pélvica y la estabilidad del tronco.'
+        },
+        {
+          musculo: 'Sartorio',
+          musculo_id: 'sartorio',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Favorece la flexión, abducción y rotación externa simultánea de cadera.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Aductores del muslo (aductor largo, corto, mayor y pectíneo)',
+          musculo_id: 'aductores_muslo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Reciben un estiramiento progresivo por la abducción y rotación externa de caderas.'
+        },
+        {
+          musculo: 'Grácil',
+          musculo_id: 'gracil',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga pasivamente a lo largo de la cara medial del muslo.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Plantas de los pies en contacto mutuo, sujetando suavemente los pies o tobillos.',
+        'Columna erguida y elongada en vertical desde una pelvis neutra.',
+        'Rodillas descendiendo libremente hacia los laterales sin forzarlas hacia abajo con las manos.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La rotación excesiva o el estrés en valgo sobre la rodilla flexionada puede agravar desgarros de menisco o lesiones de ingle.',
+        modificaciones: ['Colocar bloques o mantas debajo de los muslos/rodillas para brindar soporte y reducir el ángulo articular.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: ['Flexionar ambas rodillas llevando los talones hacia la pelvis.', 'Unir las plantas de los pies y dejar caer las rodillas hacia los lados.'],
+          consejos_seguridad: 'Mantener la columna neutra evitando que la pelvis bascule en retroversión.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: ['Usar las manos en la cara externa de las rodillas para cerrarlas suavemente.', 'Extender las piernas hacia el frente sobre el mat.'],
+          consejos_seguridad: 'Cerrar las piernas con lentitud para permitir la relajación de los aductores.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_sukhasana',
+    nombre_sanscrito: 'Sukhasana',
+    nombre_espanol: 'Postura Fácil',
+    nombre_ingles: 'Easy Pose',
+    familia_biomecanica: 'sentada',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Postura meditativa sentada con piernas cruzadas que fomenta el alineamiento axial y la concentración interior. Promueve el enraizamiento y la apertura suave de caderas.',
+    duracion_sugerida_respiraciones: { principiante: 10, intermedio: 20, avanzado: 30 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen el torso erguido contrarrestando la tendencia a la cifosis dorsal.'
+        },
+        {
+          musculo: 'Musculatura profunda del core (transverso abdominal y multífidos)',
+          musculo_id: 'musculatura_profunda_core',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabilizan la pelvis neutra y sostienen la alineación lumbopélvica de forma continua.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Psoas mayor',
+          musculo_id: 'psoas_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la flexión moderada de cadera sin sobreactivarse.'
+        },
+        {
+          musculo: 'Trapecio medio e inferior',
+          musculo_id: 'trapecio_medio_inferior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Favorecen la depresión y retracción suave de las escápulas.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Rotadores externos y abductores de cadera (glúteo medio, piriforme)',
+          musculo_id: 'rotadores_abductores_cadera',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Experimentan una elongación suave al mantener las tibias cruzadas en el suelo.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Tibias cruzadas con pies cómodamente apoyados debajo de las rodillas contrarias.',
+        'Pelvis neutra apoyada equilibradamente sobre ambos isquiones sin retroversión.',
+        'Hombros relajados lejos de las orejas con coronilla proyectada hacia el techo.'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'bajo',
+        explicacion_clinica: 'La flexión sostenida con torsión tibial puede causar molestias en articulaciones comprometidas o con lesiones agudas de cadera/rodilla.',
+        modificaciones: ['Sentarse sobre un cojín de meditación o bloque para elevar la pelvis por encima de las rodillas.'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: ['Flexionar ambas rodillas y cruzar las tibias en el centro.', 'Deslizar los pies bajo las rodillas y acomodar los isquiones.'],
+          consejos_seguridad: 'Elevar la pelvis con un soporte si las rodillas quedan por encima de las caderas.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: ['Descruzar las piernas lentamente hacia el frente.', 'Estirar las rodillas y mover los tobillos para restablecer la circulación.'],
+          consejos_seguridad: 'Alternar el cruce de las piernas periódicamente para mantener el equilibrio pélvico.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_chakravakasana',
+    nombre_sanscrito: 'Chakravakasana',
+    nombre_espanol: 'Gato-Vaca',
+    nombre_ingles: 'Cat-Cow Pose',
+    familia_biomecanica: 'flexion_anterior',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Movimiento fluido y coordinado con la respiración que alterna flexión y extensión de la columna vertebral. Moviliza cada segmento vertebral mientras calienta la musculatura del tronco y la pelvis.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Se contraen concéntricamente durante la fase de extensión (Vaca) para elevar el pecho y arquear la columna.'
+        },
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Se contrae concéntricamente durante la fase de flexión (Gato) redondeando la columna dorsal y lumbar.'
+        },
+        {
+          musculo: 'Oblicuos abdominales',
+          musculo_id: 'oblicuos_abdominales',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Asisten en la flexión activa del tronco y ayudan a estabilizar la pelvis durante la transición.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Serrato anterior',
+          musculo_id: 'serrato_anterior',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Protruye las escápulas activamente en la flexión de la columna (Gato).'
+        },
+        {
+          musculo: 'Psoas mayor',
+          musculo_id: 'psoas_mayor',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Participa en la anteversión pélvica durante la fase de extensión vertebral.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Pared abdominal',
+          musculo_id: 'pared_abdominal',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira y elonga longitudinalmente durante la fase de extensión espinal (Vaca).'
+        },
+        {
+          musculo: 'Extensores espinales',
+          musculo_id: 'extensores_espinales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan y relajan a lo largo de la espalda durante la fase de flexión espinal (Gato).'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Muñecas alineadas directamente debajo de los hombros',
+        'Rodillas separadas al ancho de las caderas y debajo de las crestas ilíacas',
+        'Sincronizar cada fase del movimiento con el ciclo respiratorio',
+        'Mantener los dedos de las manos abiertos y presionando con las yemas'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'moderado',
+        explicacion_clinica: 'Las lesiones cervicales o lumbares agudas pueden agravarse con una hiperextensión o hiperflexión no controlada.',
+        modificaciones: ['Mantener el cuello neutro en todo momento', 'Reducir el rango de movimiento limitándolo al rango medio cómodo'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Balasana',
+          instrucciones_transicion: ['Inhalar elevando el torso a cuatro puntos de apoyo', 'Alinear muñecas bajo hombros y rodillas bajo caderas'],
+          consejos_seguridad: 'Asegurar una base firme con las manos bien abiertas.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Balasana',
+          instrucciones_transicion: ['Exhalar y llevar los glúteos hacia los talones', 'Extender los brazos hacia adelante y apoyar la frente en el suelo'],
+          consejos_seguridad: 'Descargar el peso suavemente sobre las caderas sin forzar las rodillas.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_dandasana',
+    nombre_sanscrito: 'Dandasana',
+    nombre_espanol: 'Postura del Bastón',
+    nombre_ingles: 'Staff Pose',
+    familia_biomecanica: 'sentada',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Postura sentada de base donde el cuerpo forma un ángulo de 90 grados con la columna erguida y las piernas activamente extendidas. Establece la base postural para todas las flexiones y torsiones sentadas.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Erectores de la columna',
+          musculo_id: 'erectores_columna',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la columna erguida contra la gravedad contrarrestando la tendencia al colapso dorsal.'
+        },
+        {
+          musculo: 'Flexores de cadera (Psoas ilíaco)',
+          musculo_id: 'flexores_cadera',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostienen la anteversión de la pelvis y el ángulo de 90 grados entre tronco y piernas.'
+        },
+        {
+          musculo: 'Cuádriceps femoral',
+          musculo_id: 'cuadriceps_femoral',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la extensión completa de las rodillas y fijan la rótula.'
+        },
+        {
+          musculo: 'Transverso y recto abdominal',
+          musculo_id: 'transverso_recto_abdominal',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Proveen sostén a la columna lumbar y estabilizan el core de forma continua.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Tibial anterior',
+          musculo_id: 'tibial_anterior',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Mantiene la dorsiflexión activa de los tobillos empujando con los talones.'
+        },
+        {
+          musculo: 'Romboides',
+          musculo_id: 'romboides',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Retraen suavemente las escápulas para abrir el pecho.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Isquiotibiales',
+          musculo_id: 'isquiotibiales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan activamente por detrás de los muslos debido a la extensión de rodilla y flexión de cadera.'
+        },
+        {
+          musculo: 'Gastrocnemio y sóleo',
+          musculo_id: 'gastrocnemio_soleo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estiran a lo largo de la pantorrilla por la dorsiflexión activa del tobillo.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Pelvis neutra con peso distribuido equilibradamente sobre ambos isquiones',
+        'Columna erguida activa proyectando la coronilla hacia el techo',
+        'Pies en dorsiflexión activa con los talones empujando hacia adelante',
+        'Manos apoyadas al lado de las caderas con los hombros relajados hacia abajo'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'moderado',
+        explicacion_clinica: 'Si los isquiotibiales están acortados, la pelvis colapsa en retroversión generando aumento de presión intradiscal lumbar.',
+        modificaciones: ['Colocar una manta doblada o un bloque bajo los isquiones para elevar la pelvis', 'Flexionar ligeramente las rodillas manteniendo la espalda recta'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Sukasana',
+          instrucciones_transicion: ['Extender ambas piernas al frente sobre el mat', 'Acomodar los glúteos hacia atrás para asentar los isquiones'],
+          consejos_seguridad: 'Evitar encorvar la zona lumbar al extender las piernas.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Paschimottanasana',
+          instrucciones_transicion: ['Inhalar alargando los brazos al cielo', 'Exhalar inclinándose desde las caderas hacia las piernas'],
+          consejos_seguridad: 'Iniciar el movimiento desde la articulación coxofemoral y no desde la cintura.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_dhanurasana',
+    nombre_sanscrito: 'Dhanurasana',
+    nombre_espanol: 'Postura del Arco',
+    nombre_ingles: 'Bow Pose',
+    familia_biomecanica: 'extension_posterior',
+    nivel_dificultad: 'avanzado',
+    descripcion: 'Extensión posterior profunda en decúbito prono donde las manos sujetan los tobillos para elevar simultáneamente el pecho y los muslos, equilibrando el cuerpo sobre el abdomen.',
+    duracion_sugerida_respiraciones: { principiante: 3, intermedio: 5, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Extiende intensamente las caderas para elevar los muslos del suelo.'
+        },
+        {
+          musculo: 'Isquiotibiales',
+          musculo_id: 'isquiotibiales',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Flexionan las rodillas y asisten en la elevación de las piernas.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostienen la extensión completa de toda la columna vertebral.'
+        },
+        {
+          musculo: 'Romboides y trapecio medio',
+          musculo_id: 'romboides_trapecio_medio',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Aducen las escápulas abriendo la caja torácica hacia adelante.'
+        },
+        {
+          musculo: 'Deltoides posterior',
+          musculo_id: 'deltoides_posterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Extiende los hombros hacia atrás mientras las manos traccionan de los tobillos.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Dorsal ancho',
+          musculo_id: 'dorsal_ancho',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Ayuda a descender los hombros y mantener la extensión torácica.'
+        },
+        {
+          musculo: 'Aductor mayor',
+          musculo_id: 'aductor_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Evita que las rodillas se abran excesivamente hacia los lados.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga en la pared anterior del abdomen frente a la extensión del torso.'
+        },
+        {
+          musculo: 'Psoas ilíaco',
+          musculo_id: 'psoas_iliaco',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira intensamente ante la extensión coxofemoral completa.'
+        },
+        {
+          musculo: 'Cuádriceps femoral',
+          musculo_id: 'cuadriceps_femoral',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira fuertemente en la cara anterior del muslo con rodillas flexionadas.'
+        },
+        {
+          musculo: 'Pectoral mayor y menor',
+          musculo_id: 'pectorales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se abren y expanden en la parte frontal del tórax.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Tracción de los pies hacia atrás y arriba para elevar el pecho',
+        'Rodillas separadas no más del ancho de las caderas',
+        'Mirada suave al frente o ligeramente hacia arriba sin comprimir las cervicales',
+        'Hombros alejados de las orejas manteniendo espacio en el cuello'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'embarazo',
+        riesgo: 'alto',
+        explicacion_clinica: 'La posición en decúbito prono ejerce una presión directa y perjudicial sobre el útero grávido.',
+        modificaciones: ['Evitar completamente la postura prono'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'alto',
+        explicacion_clinica: 'La hiperlordosis lumbar puede causar compresión facetaria severa o pellizcamiento de raíces nerviosas en presencia de espondilolistesis o lesiones lumbares.',
+        modificaciones: ['Practicar extensiones suaves como Salamba Bhujangasana o Setu Bandhasana'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Salabhasana',
+          instrucciones_transicion: [
+            'Flexionar ambas rodillas llevando los talones a los glúteos',
+            'Llevar las manos hacia atrás y sujetar firmemente los tobillos',
+            'Inhalar pateando con los pies hacia atrás y arriba para elevar el torso'
+          ],
+          consejos_seguridad: 'No abrir las rodillas más allá del ancho de las caderas al elevarse.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Balasana',
+          instrucciones_transicion: [
+            'Exhalar soltando lentamente los tobillos y bajar el cuerpo al suelo',
+            'Empujar con las manos y llevar las caderas hacia los talones descansando la espalda'
+          ],
+          consejos_seguridad: 'Realizar la contrapostura suavemente para descomprimir la zona lumbar.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_janu_sirsasana',
+    nombre_sanscrito: 'Janu Sirsasana',
+    nombre_espanol: 'Cabeza a la Rodilla',
+    nombre_ingles: 'Head-to-Knee Pose',
+    familia_biomecanica: 'flexion_anterior',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Flexión anterior asimétrica sentada donde una pierna permanece extendida mientras la otra se flexiona con la planta del pie en el muslo interno opuesto, combinando estiramiento isquiotibial y suave rotación.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps pierna extendida',
+          musculo_id: 'cuadriceps_pierna_extendida',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Mantiene la rodilla extendida activamente por inhibición recíproca de los isquiotibiales.'
+        },
+        {
+          musculo: 'Flexores de cadera',
+          musculo_id: 'flexores_cadera',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Traccionan la pelvis en anteversión guiando el torso hacia el muslo.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Oblicuo abdominal contralateral',
+          musculo_id: 'oblicuo_contralateral',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Facilita la leve rotación del tronco para centrar el esternón sobre la pierna extendida.'
+        },
+        {
+          musculo: 'Bíceps braquial',
+          musculo_id: 'biceps_braquial',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Asiste en traccionar suavemente el torso hacia adelante cuando las manos sujetan el pie o la cincha.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Isquiotibiales de la pierna extendida',
+          musculo_id: 'isquiotibiales_pierna_extendida',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan intensamente a lo largo del plano posterior del muslo.'
+        },
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira debido a la flexión de la articulación de la cadera.'
+        },
+        {
+          musculo: 'Musculatura lumbar y dorsal ancho',
+          musculo_id: 'musculatura_lumbar',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga en el lado del cuerpo correspondiente a la pierna flexionada.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Torso orientado directamente hacia la línea central de la pierna extendida',
+        'Flexión originada desde la articulación coxofemoral evitando redondear la espalda',
+        'Pie de la pierna flexionada apoyado sin ejercer presión nociva en la rodilla',
+        'Hombros nivelados y paralelos al suelo durante el descenso'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La flexión combinada con asimetría puede generar fuerzas de cizallamiento en los discos intervertebrales lumbares.',
+        modificaciones: ['Usar una cincha alrededor del pie extendido para mantener la columna neutra', 'Sentarse sobre un bloque o manta doblada'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La rotación externa forzada de la pierna flexionada puede pellizcar el menisco medial si la cadera carece de movilidad.',
+        modificaciones: ['Colocar un bloque o soporte debajo de la rodilla flexionada', 'Abrir el ángulo de la pierna flexionada'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: [
+            'Flexionar la rodilla derecha y apoyar la planta del pie contra el muslo interno izquierdo',
+            'Girar levemente el torso hacia la pierna izquierda extendida',
+            'Inhalar alargando la columna y exhalar plegándose hacia adelante'
+          ],
+          consejos_seguridad: 'Asegurar que ambos isquiones permanezcan conectados con la base.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Dandasana',
+          instrucciones_transicion: ['Inhalar elevando el torso con la columna recta', 'Extender la pierna flexionada al frente alineándola con la otra'],
+          consejos_seguridad: 'Extender la rodilla lentamente sin movimientos bruscos.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_malasana',
+    nombre_sanscrito: 'Malasana',
+    nombre_espanol: 'Postura de la Guirnalda',
+    nombre_ingles: 'Garland Pose',
+    familia_biomecanica: 'sentada',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Sentadilla profunda con los pies apoyados en el suelo y las palmas juntas al centro del pecho, promoviendo la movilidad articular en tobillos, rodillas y caderas mientras alarga la columna lumbar.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Tibial anterior',
+          musculo_id: 'tibial_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la dorsiflexión profunda de los tobillos para estabilizar el peso del cuerpo.'
+        },
+        {
+          musculo: 'Erectores espinales',
+          musculo_id: 'erectores_espinales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Actúan para elevar el esternón y contrarrestar el colapso dorsal en la sentadilla.'
+        },
+        {
+          musculo: 'Aductores de cadera',
+          musculo_id: 'aductores_cadera',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen el tono activo y modulan la apertura coxofemoral junto a los brazos.'
+        },
+        {
+          musculo: 'Complejo muscular pélvico',
+          musculo_id: 'complejo_pelvico',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Regula la estabilidad del suelo de la pelvis en máxima flexión de cadera.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Glúteo medio y menor',
+          musculo_id: 'gluteo_medio_menor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Asisten en la abducción y estabilidad rotacional de las caderas.'
+        },
+        {
+          musculo: 'Romboides',
+          musculo_id: 'romboides',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Juntan las escápulas para permitir una apertura torácica amplia.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga en el plano posterior por la hiperflexión de caderas.'
+        },
+        {
+          musculo: 'Sóleo',
+          musculo_id: 'soleo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga intensamente ante el gran ángulo de dorsiflexión del tobillo.'
+        },
+        {
+          musculo: 'Gastrocnemio',
+          musculo_id: 'gastrocnemio',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira a lo largo de la pantorrilla permitiendo el descenso del talón.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Columna erguida y levantada proyectando la coronilla al cielo',
+        'Codos presionando suavemente contra la cara interna de las rodillas',
+        'Palmas en Anjali Mudra al centro del pecho con el esternón elevado',
+        'Peso distribuido uniformemente en los tres puntos de apoyo de cada pie'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'alto',
+        explicacion_clinica: 'La hiperflexión de rodillas con carga completa somete a compresión extrema los cuernos posteriores de los meniscos.',
+        modificaciones: ['Sentarse sobre uno o dos bloques de yoga', 'Colocar una manta enrollada debajo de los talones'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: [
+            'Separar los pies al ancho del mat con los dedos ligeramente hacia afuera',
+            'Exhalar doblando las rodillas y descendiendo la pelvis en una sentadilla profunda',
+            'Juntar las palmas al pecho y colocar los codos dentro de las rodillas'
+          ],
+          consejos_seguridad: 'Descender con control manteniendo los talones enraizados.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Uttanasana',
+          instrucciones_transicion: ['Apoyar las manos en el suelo delante de los pies', 'Inhalar extendiendo las piernas y elevando las caderas al cielo'],
+          consejos_seguridad: 'Mantener las rodillas ligeramente flexionadas si hay tensión isquiotibial.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_prasarita_padottanasana',
+    nombre_sanscrito: 'Prasarita Padottanasana',
+    nombre_espanol: 'Flexión con Piernas Separadas',
+    nombre_ingles: 'Wide-Legged Forward Bend',
+    familia_biomecanica: 'flexion_anterior',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Flexión profunda hacia adelante con piernas ampliamente separadas que elonga intensamente los isquiotibiales y la cadena posterior mientras estabiliza la articulación de la cadera.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps femoral (fijación patelar)',
+          musculo_id: 'cuadriceps_fijacion_patelar',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Extienden activamente las rodillas elevando las rótulas y protegiendo los meniscos.'
+        },
+        {
+          musculo: 'Flexores de cadera (Psoas e Ilíaco)',
+          musculo_id: 'flexores_cadera',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Inclinan la pelvis en anteversión profunda dirigiendo la flexión desde las ingles.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Tibial anterior y peroneo largo',
+          musculo_id: 'tibial_peroneos',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Preservan los arcos plantares e impiden el colapso del tobillo.'
+        },
+        {
+          musculo: 'Transverso abdominal',
+          musculo_id: 'transverso_abdominal',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene el abdomen hacia la columna proporcionando soporte central.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Aductores del muslo',
+          musculo_id: 'aductores_muslo',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan profundamente debido a la gran separación lateral de las piernas.'
+        },
+        {
+          musculo: 'Isquiotibiales',
+          musculo_id: 'isquiotibiales',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estiran de forma global en la cara posterior de ambos muslos.'
+        },
+        {
+          musculo: 'Fascia tóraco-lumbar',
+          musculo_id: 'fascia_toracolumbar',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se descomprime y elonga a lo largo de toda la espalda baja y media.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Bordes externos de los pies paralelos entre sí y al borde del mat',
+        'Flexión generada estrictamente desde la articulación coxofemoral',
+        'Peso distribuido equilibradamente entre los metatarsos y los talones',
+        'Coronilla orientada hacia el suelo alargando el cuello'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La flexión total de columna bajo carga puede desplazar el material discal posteriormente.',
+        modificaciones: ['Apoyar las manos sobre bloques a la altura de los hombros', 'Mantener la columna neutra paralela al suelo sin redondear'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'glaucoma',
+        riesgo: 'alto',
+        explicacion_clinica: 'Tener la cabeza por debajo del nivel del corazón eleva la presión intraocular de manera riesgosa.',
+        modificaciones: ['Mantener la cabeza a la altura del corazón apoyando las manos en bloques altos'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'vertigo',
+        riesgo: 'moderado',
+        explicacion_clinica: 'El cambio brusco de orientación espacial de la cabeza puede detonar mareos o desestabilización.',
+        modificaciones: ['Descender lentamente manteniendo la mirada fija en un punto fijo del suelo'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: [
+            'Dar un paso amplio lateral separando los pies aproximadamente a 1 metro o más',
+            'Colocar las manos en las caderas e inhalar abriendo el pecho',
+            'Exhalar e inclinarse hacia adelante desde las ingles apoyando las manos en el suelo'
+          ],
+          consejos_seguridad: 'Asegurar que los pies no resbalen manteniendo los arcos activos.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: [
+            'Llevar las manos a las caderas y activar el abdomen',
+            'Inhalar elevando el torso con la espalda recta hasta quedar de pie',
+            'Juntar los pies suavemente volviendo al centro del mat'
+          ],
+          consejos_seguridad: 'Subir con la espalda plana para evitar mareos al incorporarse.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_salabasana',
+    nombre_sanscrito: 'Salabasana',
+    nombre_espanol: 'Postura de la Langosta',
+    nombre_ingles: 'Locust Pose',
+    familia_biomecanica: 'extension_posterior',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Extensión posterior en decúbito prono contra la gravedad que fortalece la cadena muscular posterior completa, elevando simultáneamente el pecho, los brazos y las piernas.',
+    duracion_sugerida_respiraciones: { principiante: 4, intermedio: 6, avanzado: 8 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Erectores de la columna',
+          musculo_id: 'erectores_columna',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Elevan el tronco y la cabeza venciendo activamente la gravedad.'
+        },
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'concentrica',
+          explicacion: 'Extiende las caderas para despegar los muslos del mat.'
+        },
+        {
+          musculo: 'Isquiotibiales',
+          musculo_id: 'isquiotibiales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la extensión y elevación de las piernas en el aire.'
+        },
+        {
+          musculo: 'Deltoides posterior',
+          musculo_id: 'deltoides_posterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Eleva los brazos hacia atrás paralelos al suelo.'
+        },
+        {
+          musculo: 'Romboides',
+          musculo_id: 'romboides',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Retraen y deprimen las escápulas abriendo la caja torácica.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Aductor mayor',
+          musculo_id: 'aductor_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene las piernas juntas evitando que se abran durante la elevación.'
+        },
+        {
+          musculo: 'Tríceps braquial',
+          musculo_id: 'triceps_braquial',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene los codos completamente extendidos al proyectar las manos atrás.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elonga en la cara anterior del abdomen adaptándose al arqueo.'
+        },
+        {
+          musculo: 'Flexores de cadera (Psoas ilíaco)',
+          musculo_id: 'flexores_cadera',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estiran por la extensión continua de las caderas.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Alargamiento axial continuo desde la coronilla hasta las puntas de los pies',
+        'Elevación simétrica sostenida por la cadena posterior',
+        'Cuello largo y neutro evitando colapsar las vértebras cervicales',
+        'Púbis enraizado contra el mat para proteger la región lumbar'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'embarazo',
+        riesgo: 'alto',
+        explicacion_clinica: 'La compresión mecánica directa sobre el abdomen y la pelvis está totalmente contraindicada.',
+        modificaciones: ['Evitar completamente la postura prono'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La hiperextensión lumbar no asistida puede incrementar la compresión en lesiones discales agudas.',
+        modificaciones: ['Elevar únicamente el torso manteniendo los pies apoyados', 'Alternar elevando un solo brazo y la pierna opuesta'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Decúbito prono neutro',
+          instrucciones_transicion: [
+            'Acostarse boca abajo con los brazos extendidos a los costados del cuerpo',
+            'Inhalar profundamente alargando la columna y despegar pecho, brazos y piernas del suelo'
+          ],
+          consejos_seguridad: 'Priorizar el alargamiento antes que la altura de la elevación.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Balasana',
+          instrucciones_transicion: ['Exhalar apoyando suavemente el cuerpo sobre el mat', 'Empujar con las manos y llevar los glúteos a los talones'],
+          consejos_seguridad: 'Relajar completamente la musculatura paravertebral en la postura de descanso.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_salamba_bhujangasana',
+    nombre_sanscrito: 'Salamba Bhujangasana',
+    nombre_espanol: 'Postura de la Esfinge',
+    nombre_ingles: 'Sphinx Pose',
+    familia_biomecanica: 'extension_posterior',
+    nivel_dificultad: 'principiante',
+    descripcion: 'Extensión espinal suave y pasiva-activa con apoyo de antebrazos en decúbito prono, ideal para descomprimir la columna, abrir el pecho y rehabilitar la movilidad dorsal.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Erectores espinales dorsales',
+          musculo_id: 'erectores_espinales_dorsales',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen la suave extensión del segmento torácico elevando el esternón.'
+        },
+        {
+          musculo: 'Serrato anterior',
+          musculo_id: 'serrato_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Empuja los antebrazos contra el mat estabilizando las escápulas y evitando el hundimiento torácico.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Trapecio inferior',
+          musculo_id: 'trapecio_inferior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Deprime los hombros alejándolos activamente de las orejas.'
+        },
+        {
+          musculo: 'Glúteo medio',
+          musculo_id: 'gluteo_medio',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza el sacro y la pelvis contra el suelo.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Recto abdominal',
+          musculo_id: 'recto_abdominal',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se estira suavemente a lo largo de la pared anterior del tronco.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Codos ubicados directamente debajo de los hombros',
+        'Antebrazos y palmas paralelos entre sí empujando activamente el mat',
+        'Esternón proyectado hacia adelante y arriba con el pecho amplio',
+        'Empeines firmemente apoyados en el suelo alargando las piernas'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'embarazo',
+        riesgo: 'alto',
+        explicacion_clinica: 'La posición boca abajo produce presión indeseable sobre el abdomen gestante.',
+        modificaciones: ['Evitar la posición prono'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'hernias_discales',
+        riesgo: 'bajo',
+        explicacion_clinica: 'Suele ser terapéutica para hernias posteriores, pero contraindicada en espondilolistesis severa o inflamación aguda.',
+        modificaciones: ['Caminar los codos más hacia adelante para reducir el ángulo de extensión', 'Realizar extensiones suaves sentado o Chakravakasana'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Decúbito prono neutro',
+          instrucciones_transicion: ['Apoyar los codos bajo los hombros con los antebrazos paralelos al suelo', 'Inhalar empujando el suelo con los antebrazos para elevar el pecho'],
+          consejos_seguridad: 'Evitar contraer excesivamente los glúteos si se siente presión en el sacro.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Balasana',
+          instrucciones_transicion: ['Exhalar bajando el pecho al mat', 'Colocar las manos bajo los hombros y empujar hacia atrás para llevar caderas a talones'],
+          consejos_seguridad: 'Moverse despacio para dar espacio y descanso a las vértebras lumbares.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_utkata_konasana',
+    nombre_sanscrito: 'Utkata Konasana',
+    nombre_espanol: 'Postura de la Diosa',
+    nombre_ingles: 'Goddess Pose',
+    familia_biomecanica: 'bipedestacion',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Postura de pie con piernas ampliamente separadas y rodillas flexionadas en rotación externa, que fortalece el tren inferior y abre caderas y pecho.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps femoral',
+          musculo_id: 'cuadriceps_femoral',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la flexión de las rodillas estabilizando la articulación femorotibial.'
+        },
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantiene la extensión y estabilización de las caderas en la posición en cuclillas.'
+        },
+        {
+          musculo: 'Glúteo medio',
+          musculo_id: 'gluteo_medio',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la abducción y rotación externa evitando el colapso medial de las rodillas.'
+        },
+        {
+          musculo: 'Aductores de la cadera',
+          musculo_id: 'aductores_cadera',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Coestabilizan la articulación de la cadera y la pelvis en la apertura amplia.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Core abdominal',
+          musculo_id: 'core_abdominal',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza el tronco en posición vertical y neutraliza la inclinación pélvica excesiva.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Aductores del muslo porción distal',
+          musculo_id: 'aductores_porcion_distal',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan de manera pasiva y controlada al abrir las caderas y flexionar rodillas.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Pies orientados hacia afuera en ángulo de 45 grados',
+        'Rodillas alineadas verticalmente con los tobillos y orientadas hacia las puntas de los pies',
+        'Torso erguido con columna neutra y pelvis en posición centrada',
+        'Pelvis descendida manteniendo los muslos orientados hacia la horizontal'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La flexión profunda combinada con carga axial puede exacerbar el dolor femororrotuliano o la inestabilidad ligamentosa y meniscal si las rodillas se desplazan hacia el interior.',
+        modificaciones: ['Reducir la profundidad de la flexión de rodillas', 'Utilizar una silla bajo los isquiones como soporte'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Tadasana',
+          instrucciones_transicion: [
+            'Da un paso amplio lateral separando los pies aproximadamente a 1 metro',
+            'Gira los talones hacia adentro y los dedos de los pies hacia afuera a 45 grados',
+            'Inhala alargando la columna y exhala flexionando las rodillas profundamente'
+          ],
+          consejos_seguridad: 'Asegúrate de que las rodillas sigan la misma dirección de los dedos de los pies durante el descenso.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Prasarita Padottanasana',
+          instrucciones_transicion: [
+            'Inhala extendiendo las piernas de regreso a la posición de pie',
+            'Gira los pies hacia el frente haciéndolos paralelos entre sí',
+            'Exhala flexionando el torso hacia adelante desde las caderas'
+          ],
+          consejos_seguridad: 'Mantén una microflexión en las rodillas si experimentas tensión en los isquiotibiales.'
+        }
+      ]
+    }
+  },
+  {
+    id: 'asana_viparita_virabhadrasana',
+    nombre_sanscrito: 'Viparita Virabhadrasana',
+    nombre_espanol: 'Guerrero Invertido',
+    nombre_ingles: 'Reverse Warrior',
+    familia_biomecanica: 'bipedestacion',
+    nivel_dificultad: 'intermedio',
+    descripcion: 'Postura de pie en flexión lateral que combina la base firme y estable de Guerrero II con una apertura profunda del costado torácico.',
+    duracion_sugerida_respiraciones: { principiante: 5, intermedio: 8, avanzado: 10 },
+    imagenes_ilustrativas: { foto_principal: '', ilustracion_vectorial: '', overlay_alineacion: '', overlay_vectores_fuerza: '' },
+    video_loop: {
+      frontal: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      lateral: { url: '', duracion_segundos: 5, resolucion: '1080p' },
+      rotacion_360: { url: '', duracion_segundos: 7, resolucion: '1080p' },
+      errores_comunes: []
+    },
+    trabajo_muscular: {
+      agonistas: [
+        {
+          musculo: 'Cuádriceps de la pierna anterior',
+          musculo_id: 'cuadriceps_pierna_anterior',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostiene la flexión a 90 grados de la rodilla delantera contra la gravedad.'
+        },
+        {
+          musculo: 'Glúteo mayor',
+          musculo_id: 'gluteo_mayor',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Estabiliza la pelvis y extiende la cadera de la pierna posterior.'
+        },
+        {
+          musculo: 'Oblicuos del abdomen',
+          musculo_id: 'oblicuos_abdomen',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Controlan la flexión lateral de la columna vertebral sin colapsar las vértebras.'
+        },
+        {
+          musculo: 'Intercostales del lado extendido',
+          musculo_id: 'intercostales_lado_extendido',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Sostienen la apertura de la caja torácica facilitando la respiración profunda.'
+        }
+      ],
+      sinergicos: [
+        {
+          musculo: 'Deltoides anterior y medio',
+          musculo_id: 'deltoides_anterior_medio',
+          tipo_contraccion: 'isometrica',
+          explicacion: 'Mantienen el brazo anterior elevado en arco sobre la cabeza.'
+        }
+      ],
+      antagonistas_elongados: [
+        {
+          musculo: 'Intercostales y oblicuos del costado posterior y superior',
+          musculo_id: 'intercostales_oblicuos_costado_posterior',
+          tipo_contraccion: 'excentrica',
+          explicacion: 'Se elongan activamente permitiendo la flexión lateral y expansión torácica hacia atrás.'
+        }
+      ]
+    },
+    alineacion: {
+      puntos_clave: [
+        'Flexión de 90° en la rodilla anterior alineada directamente con el segundo dedo del pie',
+        'Pierna posterior completamente extendida con el borde externo del pie firmemente enraizado',
+        'Torso inclinado en flexión lateral hacia la pierna trasera manteniendo la pelvis estable',
+        'Brazo anterior extendido sobre la cabeza alargando el costado lateral sin comprimir el cuello'
+      ]
+    },
+    contraindicaciones: [
+      {
+        condicion: 'problemas_rodilla',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La flexión sostenida de la rodilla anterior combinada con el cambio en la distribución del peso hacia atrás puede sobrecargar la rótula o la cápsula articular posterior.',
+        modificaciones: ['Disminuir la flexión de la rodilla delantera a un ángulo menor de 90°', 'Dirigir la mirada hacia el pie posterior para mejorar la estabilidad'],
+        alternativa_segura: null
+      },
+      {
+        condicion: 'vertigo',
+        riesgo: 'moderado',
+        explicacion_clinica: 'La rotación y extensión cervical al mirar la mano superior pueden generar pérdida del equilibrio, mareo o compresión suboccipital.',
+        modificaciones: ['Mantener la cabeza en posición neutra o dirigir la mirada hacia el suelo al pie trasero'],
+        alternativa_segura: null
+      }
+    ],
+    transiciones_sugeridas: {
+      entrar_desde: [
+        {
+          nombre: 'Virabhadrasana II',
+          instrucciones_transicion: [
+            'Desde Guerrero II, mantén la flexión de 90 grados en la rodilla anterior',
+            'Inhala descendiendo la mano trasera hacia el muslo o pantorrilla posterior',
+            'Eleva el brazo delantero hacia el cielo e inclina el torso suavemente hacia atrás'
+          ],
+          consejos_seguridad: 'Evita ejercer presión o empujar con la mano sobre la articulación de la rodilla posterior.'
+        }
+      ],
+      salir_hacia: [
+        {
+          nombre: 'Utthita Parsvakonasana',
+          instrucciones_transicion: [
+            'Exhala inclinando el tronco hacia adelante sobre la pierna flexionada',
+            'Apoya el antebrazo anterior en el muslo o lleva la mano hacia un bloque o el suelo',
+            'Extiende el brazo posterior en diagonal por encima de la oreja'
+          ],
+          consejos_seguridad: 'Mantén la rodilla delantera fija y alineada sobre el tobillo sin permitir que colapse hacia adentro.'
         }
       ]
     }
