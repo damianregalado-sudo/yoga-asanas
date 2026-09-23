@@ -38,7 +38,7 @@ function TransicionCard({ nombre, instrucciones, consejo, direction, onNameClick
 }
 
 export function TransicionesPanel({ transiciones, onAsanaClick }: {
-  transiciones: Transiciones; onAsanaClick: (id: string) => void;
+  transiciones: Transiciones; onAsanaClick: (id: string | number) => void;
 }) {
   return (
     <div>
@@ -48,7 +48,7 @@ export function TransicionesPanel({ transiciones, onAsanaClick }: {
           {transiciones.entrar_desde.map((t, i) => (
             <TransicionCard key={i} nombre={t.nombre} instrucciones={t.instrucciones_transicion}
               consejo={t.consejos_seguridad} direction="in"
-              onNameClick={() => onAsanaClick(t.postura_origen_id)} />
+              onNameClick={() => t.postura_origen_id && onAsanaClick(t.postura_origen_id)} />
           ))}
         </div>
       )}
@@ -58,7 +58,7 @@ export function TransicionesPanel({ transiciones, onAsanaClick }: {
           {transiciones.salir_hacia.map((t, i) => (
             <TransicionCard key={i} nombre={t.nombre} instrucciones={t.instrucciones_transicion}
               consejo={t.consejos_seguridad} direction="out"
-              onNameClick={() => onAsanaClick(t.postura_destino_id)} />
+              onNameClick={() => t.postura_destino_id && onAsanaClick(t.postura_destino_id)} />
           ))}
         </div>
       )}

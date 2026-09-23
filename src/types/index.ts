@@ -63,8 +63,8 @@ export interface PuntoAlineacion {
 }
 
 export interface TransicionEntry {
-  postura_origen_id: string;
-  postura_destino_id: string;
+  postura_origen_id?: string;
+  postura_destino_id?: string;
   nombre: string;
   instrucciones_transicion: string[];
   consejos_seguridad: string;

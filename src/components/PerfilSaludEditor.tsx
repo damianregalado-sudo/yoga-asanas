@@ -1,11 +1,11 @@
-import React from 'react';
+import type { CondicionSalud } from '../types';
 
 interface Props {
-    condiciones: string[];
-    onChange: (c: string[]) => void;
+    condiciones: CondicionSalud[];
+    onChange: (c: CondicionSalud[]) => void;
 }
 
-const CONDITIONS: Record<string, string> = {
+const CONDITIONS: Record<CondicionSalud, string> = {
     hipertension_arterial: 'Hipertensión ❤️',
     glaucoma: 'Glaucoma 👁️',
     hernias_discales: 'Hernias 🦴',
@@ -18,7 +18,7 @@ const CONDITIONS: Record<string, string> = {
 };
 
 export function PerfilSaludEditor({ condiciones, onChange }: Props) {
-    const handleToggle = (key: string) => {
+    const handleToggle = (key: CondicionSalud) => {
         const next = condiciones.includes(key)
             ? condiciones.filter((c) => c !== key)
             : [...condiciones, key];
@@ -44,7 +44,7 @@ export function PerfilSaludEditor({ condiciones, onChange }: Props) {
                     gap: '8px',
                 }}
             >
-                {Object.entries(CONDITIONS).map(([key, label]) => {
+                {(Object.entries(CONDITIONS) as [CondicionSalud, string][]).map(([key, label]) => {
                     const active = condiciones.includes(key);
                     return (
                         <button

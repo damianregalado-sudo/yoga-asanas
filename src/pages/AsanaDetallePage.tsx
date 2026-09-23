@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { asanas } from '../data/asanas';
 import type { Asana } from '../types';
-import { evaluarRiesgo, recomendarAlternativas } from '../utils/riesgo';
+import { evaluarRiesgo } from '../utils/riesgo';
 import { usePerfilSalud } from '../hooks/usePerfilSalud';
 import { SemaforoRiesgo } from '../components/SemaforoRiesgo';
 import { MapaMuscular } from '../components/MapaMuscular';

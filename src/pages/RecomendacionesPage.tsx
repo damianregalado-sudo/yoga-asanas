@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { asanas } from '../data/asanas';
 import { evaluarRiesgo } from '../utils/riesgo';
-import type { CondicionSalud, SemaforoEstado } from '../types';
+import type { CondicionSalud } from '../types';
 
 const CASOS: { condicion: CondicionSalud; label: string; emoji: string; descripcion: string }[] = [
   { condicion: 'embarazo', label: 'Embarazada', emoji: '🤰', descripcion: 'Alumna en gestación — evitar inversiones, presión abdominal y posturas boca abajo' },
@@ -15,9 +15,6 @@ const CASOS: { condicion: CondicionSalud; label: string; emoji: string; descripc
   { condicion: 'vertigo', label: 'Vértigo', emoji: '🌀', descripcion: 'Mareos posicionales — evitar equilibrios complejos y transiciones rápidas' },
   { condicion: 'reemplazos_articulares', label: 'Reemplazos articulares', emoji: '🔧', descripcion: 'Prótesis de cadera/rodilla — evitar rangos extremos y cargas asimétricas' },
 ];
-
-const SEM_COLOR: Record<SemaforoEstado, string> = { verde: '#4CAF50', amarillo: '#FF9800', rojo: '#F44336' };
-const SEM_LABEL: Record<SemaforoEstado, string> = { verde: 'Segura', amarillo: 'Precaución', rojo: 'Contraindicada' };
 
 export function RecomendacionesPage() {
   const navigate = useNavigate();
